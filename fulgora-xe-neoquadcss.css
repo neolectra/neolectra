@@ -842,10 +842,11 @@
 
 #BronteImage {
 	height: 480px;
+	background-image: url("Stitch.jpeg");
 }
 
 .interiorBackground {
-	background-image: url("InsideCar.jpeg");
+	background-image: url("CarInterior4.jpeg");
 	height: 75vh;
 	width: 100%;
 	background-attachment: fixed;
