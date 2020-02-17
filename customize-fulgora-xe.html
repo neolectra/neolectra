@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang = "eng">
+<head>
+	<title> Neolectra Inc. Homepage </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="customizefulgoraxecss.css">
+	<link rel="stylesheet" href="extracss.css">
+	<link rel="stylesheet" href="HeaderFooter.css">
+	<link rel="stylesheet" media="screen and (max-width: 750px)" href="HeaderFooterMedia.css">
+	<link rel="stylesheet" media="screen and (max-width: 750px)" href="indexMedia.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="resources/jquery.js"></script>
+	<link rel="icon" type="image/png" href="CarLogoFavicon.png" size = "16x16"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script>
+var slideIndex2 = 1;
+
+
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  var i;
+  var slides = document.getElementsByClassName("MySlides2");
+  var dots = document.getElementsByClassName("dot2");
+  var transparent = document.getElementsByClassName("transparentDotBackground");
+  if (n > slides.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    transparent[i].className = transparent[i].className.replace(" Active2", "");
+  }
+  slides[slideIndex2-1].style.display = "block";
+  transparent[slideIndex2-1].className += " Active2";
+}
+
+
+</script>
+<div id = "gallerySection" class="SlideShowContainer2">
+<div class="DotContainer2">
+	<div class = "galleryTitle">
+		<h3>Customize</h3>
+	</div>
+	<div class="Dots2">
+		  <div id = "pic1" class="dot2" onclick="currentSlide2(1)" >
+			<div class = "transparentDotBackground">
+			</div>
+		  </div>
+		  <div id = "pic2" class="dot2" onclick="currentSlide2(2)">
+			<div class = "transparentDotBackground">
+			</div>
+		  </div>
+		  <div id = "pic3" class="dot2" onclick="currentSlide2(3)">
+			<div class = "transparentDotBackground">
+			</div>
+		  </div>
+		  <div id = "pic4" class="dot2" onclick="currentSlide2(4)">
+			<div class = "transparentDotBackground">
+			</div>
+		  </div>
+		  <div id = "pic5" class="dot2" onclick="currentSlide2(5)">
+			<div class = "transparentDotBackground">
+			</div>
+		  </div>
+		  <div id = "pic6" class="dot2" onclick="currentSlide2(6)">
+			<div class = "transparentDotBackground">
+			</div>
+		  </div>
+	</div>
+</div>
+
+	<div class="MySlides2 fade2">
+		<img src="fulgora/fulgora_xe_white-removebg-preview.png"/>
+	</div>
+	<div class="MySlides2 fade2">
+		<img src="fulgora/fulgora_xe_green-removebg-preview.png"/>
+	</div>
+	<div class="MySlides2 fade2">
+	  <img src="fulgora/fulgora_xe_grey-removebg-preview.png"/>
+	</div>
+	<div class="MySlides2 fade2">
+		<img src="fulgora/fulgora_xe_orange-removebg-preview.png"/>
+	</div>
+	<div class="MySlides2 fade2">
+		<img src="fulgora/fulgora_xe_red-removebg-preview.png"/>
+	</div>
+	<div class="MySlides2 fade2">
+	  <img src="fulgora/fulgora_xe_periwinkle-removebg-preview.png"/>
+	</div>
+</div>
+<script>
+showSlides2(slideIndex2);
+</script>
+</html>
