@@ -308,6 +308,10 @@
 	background-position: center bottom;
 }
 
+#peleHolder:before {
+	background-image: url("PelePar.jpeg");
+}
+
 .leftText {
 	width: 49%;
 	padding-right: 2%;
@@ -342,7 +346,8 @@
 }*/
 
 .carOnSkew {
-	height: 500px;
+
+	width: 100%;
 	align-self: flex-end;
 	opacity: 0;
 	transition: transform 4s 0.40s cubic-bezier(0,1,.3,1),
@@ -368,13 +373,17 @@
 	align-self: flex-start;
 }
 
-#BronteImage {
+#BronteImage, #PeleImage {
 	display: flex;
 	justify-content: flex-end !important;
 	width: 50%;
 	background-image: url("CarInterior.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+#PeleImage {
+	background-image: url("PeleRedInsideFixed.png");
 }
 
 
@@ -390,7 +399,7 @@
 	text-transform: uppercase;
 	font-size: 30px;
 	font-weight: bold;
-	width: 20%;
+	width: 30%;
 	padding-left: 10px;
 	border-bottom: 3px solid rgb(214, 159, 51);
 	padding-bottom: 10px;
@@ -498,4 +507,22 @@
 
 #square2 {
 	background-image: url("ExperienceBackground.jpg");
+}
+
+#lightning:before {
+	background-image: url("LightningBackground.jpeg");
+}
+
+#astrapeinterior {
+	background-image: url("AstrapeInterior.jpg");
+	background-position: bottom center;
+}
+
+#oyaHolder:before {
+	background-image: url("StreamBackground.jpeg");
+}
+
+#oyaInterior {
+	background-image: url("OyaInterior.jpeg");
+	background-position: top center;
 }
