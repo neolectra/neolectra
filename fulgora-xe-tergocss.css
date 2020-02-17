@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("TergoBackground.png");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -406,6 +406,7 @@
 
 #shorter {
 	height: 480px;
+	background-image: url("Charging.jpeg");
 }
 
 /*.pictureHolder::after {
@@ -833,7 +834,7 @@
 	width: 100%;
 	height: 580px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("TergoInterior.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -841,10 +842,11 @@
 
 #BronteImage {
 	height: 480px;
+	background-image: url("TergoInterior3.jpeg");
 }
 
 .interiorBackground {
-	background-image: url("InsideCar.jpeg");
+	background-image: url("TergoInterior2.jpeg");
 	height: 75vh;
 	width: 100%;
 	background-attachment: fixed;
@@ -988,3 +990,44 @@
 #hidePicture {
 	visibility: hidden !important;
 }
+
+#steering {
+	background-image: url("SteeringWheel.jpeg");
+}
+
+#environment:before {
+	background-image: url("EnvironmentTergo.jpeg");
+}
+
+#pic1 {
+	background-image: url("tergogallery1.png");
+}
+
+#pic2 {
+	background-image: url("tergogallery2.jpg");
+}
+
+#pic3 {
+	background-image: url("tergogallery3.png");
+}
+
+#pic4 {
+	background-image: url("tergogallery4.jpg");
+}
+
+#pic5 {
+	background-image: url("tergogallery5.png");
+}
+
+#pic6 {
+	background-image: url("tergogallery6.png");
+}
+
+#pic7 {
+	background-image: url("tergogallery7.png");
+}
+
+#pic8 {
+	background-image: url("tergogallery8.jpg");
+}
+
