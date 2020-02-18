@@ -305,7 +305,7 @@
 	width: 100%;
 	height: 480px;
 	z-index: -1;
-	background: url("InsideCar.jpeg");
+	background: url("BronteInterior.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -336,7 +336,7 @@
 
 .imageHolder {
 	width: 30%;
-	background-image: url("InsideCar.jpeg");
+	background-image: url("BronteInterior.jpeg");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
@@ -590,7 +590,7 @@
 }
 
 .galleryTitle h3 {
-	padding-right: 3%;
+	padding-right: 15px;
 	font-family: "Segoe UI", "Helvetica Neue";
 	color: white;
 	text-transform: uppercase;
@@ -732,7 +732,7 @@
 .learnMoreButton:hover button {
   border-color: #626262;
  }
-<<<<<<< HEAD
+
  
 
 #brandSquare {
@@ -759,8 +759,37 @@
 	background-image: url("ExperienceBackground.jpg");
 }
 
+#pic1 {
+	background-image: url("BronteGallery1.png");
+}
+
+#pic2 {
+	background-image: url("BronteBackground.png");
+}
+
+#pic3 {
+	background-image: url("BronteBackground2.png");
+}
+
+#pic4 {
+	background-image: url("BronteGallery2.png");
+}
+
+#pic5 {
+	background-image: url("BronteGallery3.png");
+}
+
+#pic6 {
+	background-image: url("BronteGallery4.jpg");
+}
+
+#pic7 {
+	background-image: url("BronteGallery5.png");
+}
+
+#pic8 {
+	background-image: url("BronteGallery6.jpg");
+}
 
 
  
-=======
->>>>>>> c6c27440ebe1cecaa614d6abe14e34526ca99950
