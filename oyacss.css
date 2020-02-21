@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("OyaBackground.png");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -406,6 +406,7 @@
 
 #shorter {
 	height: 480px;
+	background-image: url("OyaDesign.jpeg");
 }
 
 /*.pictureHolder::after {
@@ -662,7 +663,7 @@
 }
 
 .galleryTitle h3 {
-	padding-right: 3%;
+	padding-right: 15px;
 	font-family: "Segoe UI", "Helvetica Neue";
 	color: white;
 	text-transform: uppercase;
@@ -833,18 +834,19 @@
 	width: 100%;
 	height: 580px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("InteriorOya2.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: bottom center;
 }
 
 #BronteImage {
 	height: 480px;
+	background-image: url("InteriorOya.jpeg");
 }
 
 .interiorBackground {
-	background-image: url("InsideCar.jpeg");
+	background-image: url("OyaInterior2.png");
 	height: 75vh;
 	width: 100%;
 	background-attachment: fixed;
@@ -989,4 +991,42 @@
 	visibility: hidden !important;
 }
 
+#yellow {
+	background-image: url("YellowOya.jpg");
+}
 
+#chess:before {
+	background-image: url("Business.jpeg");
+}
+
+#pic1 {
+	background-image: url("OyaGallery1.jpg");
+}
+
+#pic2 {
+	background-image: url("OyaGallery2.png");
+}
+
+#pic3 {
+	background-image: url("OyaGallery3.png");
+}
+
+#pic4 {
+	background-image: url("OyaGallery4.jpg");
+}
+
+#pic5 {
+	background-image: url("OyaGallery5.png");
+}
+
+#pic6 {
+	background-image: url("OyaGallery6.png");
+}
+
+#pic7 {
+	background-image: url("OyaGallery7.png");
+}
+
+#pic8 {
+	background-image: url("OyaGallery8.png");
+}
