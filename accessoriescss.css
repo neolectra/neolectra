@@ -690,13 +690,12 @@
 	border: none;
 	color: black;
 	background-color: rgba(255,255,255,0);
-	font-size: 20px;
+	font-size: 16px;
 	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 	cursor: pointer;
 	font-weight: normal;
-	letter-spacing: 3px;
-	text-transform: uppercase;
+	letter-spacing: 1px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	width: 96%;
@@ -712,7 +711,7 @@
  }
  
  .minusHolder p {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .minusHolder {
@@ -770,6 +769,8 @@
 	font-weight: 300;
 	padding-bottom: 15px;
 }
+
+
 
 .modelFirstSection {
 	padding-top: 3%;
@@ -869,7 +870,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 3% 10% 0 10%;
+	padding: 8% 10% 8% 10%;
 }
 
 .part {
@@ -880,7 +881,7 @@
 }
 
 .part img {
-	width: 80%;
+
 }
 
 .partImageHolder {
@@ -890,6 +891,11 @@
 	width: 100%;
 	border: 3px solid #dbb52f;
 	height: 300px;
+}
+
+.partImageHolder img {
+	max-height: 80%;
+	max-width: 90%;
 }
 
 .SlideShowContainer2 {
