@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("BronteBackground.png");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -406,6 +406,7 @@
 
 #shorter {
 	height: 480px;
+	background-image: url("DesignDomus.jpeg");
 }
 
 /*.pictureHolder::after {
@@ -662,7 +663,7 @@
 }
 
 .galleryTitle h3 {
-	padding-right: 3%;
+	padding-right: 15px;
 	font-family: "Segoe UI", "Helvetica Neue";
 	color: white;
 	text-transform: uppercase;
@@ -833,7 +834,7 @@
 	width: 100%;
 	height: 580px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("InteriorDomus.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -841,10 +842,11 @@
 
 #BronteImage {
 	height: 480px;
+	background-image: url("InteriorDomus2.jpeg");
 }
 
 .interiorBackground {
-	background-image: url("InsideCar.jpeg");
+	background-image: url("InteriorDomus3.png");
 	height: 75vh;
 	width: 100%;
 	background-attachment: fixed;
@@ -990,4 +992,10 @@
 	visibility: hidden !important;
 }
 
+#night {
+	background-image: url("NightRide.jpeg");
+}
 
+#family:before {
+	background-image: url("FamilyCar.jpeg");
+}

@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("BronteNitroBackground.png");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -406,6 +406,7 @@
 
 #shorter {
 	height: 480px;
+	background-image: url("GirlDriving.jpeg");
 }
 
 /*.pictureHolder::after {
@@ -662,7 +663,7 @@
 }
 
 .galleryTitle h3 {
-	padding-right: 3%;
+	padding-right: 15px;
 	font-family: "Segoe UI", "Helvetica Neue";
 	color: white;
 	text-transform: uppercase;
@@ -833,7 +834,7 @@
 	width: 100%;
 	height: 580px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("PhoneDriving.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -841,10 +842,11 @@
 
 #BronteImage {
 	height: 480px;
+	background-image: url("InteriorBronte.jpeg");
 }
 
 .interiorBackground {
-	background-image: url("InsideCar.jpeg");
+	background-image: url("InteriorBrown.png");
 	height: 75vh;
 	width: 100%;
 	background-attachment: fixed;
@@ -989,4 +991,42 @@
 	visibility: hidden !important;
 }
 
+#speed {
+	background-image: url("Speed.jpeg");
+}
 
+#speedEmotion:before {
+	background-image: url("SpeedEmotion.jpeg");
+}
+
+#pic1 {
+	background-image: url("BronteNitroGallery1.png");
+}
+
+#pic2 {
+	background-image: url("BronteNitroGallery2.png");
+}
+
+#pic3 {
+	background-image: url("BronteNitroGallery3.png");
+}
+
+#pic4 {
+	background-image: url("BronteNitroGallery4.png");
+}
+
+#pic5 {
+	background-image: url("BronteNitroGallery5.png");
+}
+
+#pic6 {
+	background-image: url("BronteNitroGallery6.png");
+}
+
+#pic7 {
+	background-image: url("BronteNitroGallery7.png");
+}
+
+#pic8 {
+	background-image: url("BronteNitroGallery8.png");
+}
