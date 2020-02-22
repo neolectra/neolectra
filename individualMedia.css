@@ -17,6 +17,10 @@
 	width: 100%;
 }
 
+.landing {
+	background-attachment: scroll;
+}
+
 .firstSectionText {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
