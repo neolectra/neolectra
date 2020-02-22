@@ -34,18 +34,5 @@
 	height: 100% !important;
 	padding: 0 !important;
 }
-
-.modelTitleHolder {
-	width: 70%;
-}
-
-
 	
-}
-
-@media only screen and (max-width: 500px) { 
-	.technicalTitle h2 {
-		font-size: 40px;
-	}
-
 }

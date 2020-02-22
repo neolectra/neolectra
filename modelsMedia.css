@@ -37,6 +37,11 @@
 	text-align: left;
 }
 
+.modelTitleHolder {
+	width: 70%;
+}
+
+
 }
 
 @media only screen and (max-width: 640px) { 

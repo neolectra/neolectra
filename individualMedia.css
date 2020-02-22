@@ -9,6 +9,14 @@
 	padding-right: 0 !important;
 }
 
+.pictureHolder:before {
+	width: 100%;
+}
+
+.pictureHolder {
+	width: 100%;
+}
+
 .firstSectionText {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
