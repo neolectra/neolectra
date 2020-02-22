@@ -190,6 +190,7 @@
 	display: flex;
 	justify-content: space-around;
 	color: white;
+	flex-wrap: wrap;
 }
 
 .firstStart, .location, .slogan, .teamLogo {
@@ -839,6 +840,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding-top: 5%;
+	flex-wrap: wrap;
 }
 
 .overallNewSectionEvent {

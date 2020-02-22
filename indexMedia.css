@@ -1,42 +1,89 @@
-/* set viewport for ALL mobile devices */
-@viewport {
-  width: device-width;
-  zoom: 1.0;
+/* BEGIN MEDIA QUERIES FOR ALL MOBILE DEVICES */
+@media only screen and (max-width: 790px) {
+
+.textHolder h4 {
+	line-height: 50px;
 }
 
-/* BEGIN MEDIA QUERIES FOR ALL MOBILE DEVICES */
-@media only screen and (max-width: 750px) {
+.textHolder {
+	width: 80%;
+}
 
-  .textHolder h4 {
-    line-height: 1.1;
-  }
+.aboutUsTitle h2:after, .teamTitleSection h2:after, .boardTitle h2:after, .eventTitle h2:after {
+	width: 45%;
+}
 
-  .textHolder a {
-    position: absolute;
-    width: 3.8em;
-  }
+.quickStatsTitle h2:after  {
+	width: 50%;
+}
 
-  .downButton {
-    top: 85vh;
-  }
+.downButton {
+	top: 80vh;
+}
 
-  /* TODO re-do this style*/.quickStatsTitle h2, .location h2, .location h3, .slogan h2, .slogan h3 {
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+.modelSection {
+	width: 100%;
+}
 
-  #mybtn {
-    right: 40px;
-  }
+.aboutUsSection {
+	margin: 8% 15% 8% 15%;
+}
+
+.firstStart, .location, .slogan, .teamLogo {
+	width: 100%;
+}
+
+.firstStart, .location, .slogan {
+	margin-top: 8%;
+}
+
+.Circle {
+	margin-bottom: 10%;
+}
+
+.teamLogo {
+	width: 95% !important;
+}
+
+.leftNewSection, .rightNewSection {
+	width: 100%;
+}
+
+.rightNewSection {
+	height: 400px;
+}
+
+.newsBox2, .newsBox2 {
+	width: 100%;
+	margin: 0 !important;
+}
+
+.leftNewSection h4, .rightNewSection h4 {
+	left: 0;
+	padding-left: 2%;
+}  
+
+.circleContainerBoard {
+	padding-top: 20%;
+}
+
+.box2Holder {
+	flex-wrap: wrap;
+}
+
+#marginRight {
+	margin: 0 !important;
+}
+
+.topSection {
+	margin-bottom: 8%;
+} 
+  
 }
 
 /* scale nav logo down for iphone se/6/7/8 */
 @media only screen and (max-width: 373px) and (max-height: 810px) {
   .homepageLogo img {
     transform: scale(0.75);
-  }
-  .homepageLogo a {
-    margin-top: ;
   }
 }
