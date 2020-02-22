@@ -1,5 +1,5 @@
 /* BEGIN MEDIA QUERIES FOR ALL MOBILE DEVICES */
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 970px) {
 
 .textHolder h4 {
 	line-height: 50px;

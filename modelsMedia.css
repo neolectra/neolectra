@@ -1,0 +1,54 @@
+/* BEGIN MEDIA QUERIES FOR ALL MOBILE DEVICES */
+@media only screen and (max-width: 970px) {
+
+.imageHolder, #BronteImage, #PeleImage {
+	display: none;
+}
+
+.firstSectionText {
+	padding-left: 5% !important;
+	padding-right: 5%;
+	padding-top:15%;
+}
+
+.whiteTriangle {
+	display: none;
+}
+
+.linkCarHolder {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.leftText {
+	width: 100%;
+	padding-right: 0 !important;
+	padding-bottom: 15%;
+}
+
+#BronteLeft {
+	width: 100%;
+	padding-right: 5% !important;
+	padding-left: 5%;
+	text-align: left;
+}
+
+}
+
+@media only screen and (max-width: 640px) { 
+.pictureHolder {
+	height: 400px;
+}
+
+.pictureHolder:before {
+	height: 280px;
+}
+
+}
+
+/* scale nav logo down for iphone se/6/7/8 */
+@media only screen and (max-width: 373px) and (max-height: 810px) {
+  .homepageLogo img {
+    transform: scale(0.75);
+  }
+}
