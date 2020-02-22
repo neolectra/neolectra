@@ -18,6 +18,10 @@
 	height: 15vh;
 }
 
+.pictureHolder:before {
+	background-attachment: scroll;
+}
+
 .modelChoice {
 	padding: 10% 5% 10% 5%;
 }	
