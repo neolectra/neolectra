@@ -1,0 +1,23 @@
+@media only screen and (max-width: 970px) {
+
+.leftTextHolder {
+	width: 100% !important;
+}
+
+.firstSectionTextFlex {
+	width: 100%;
+}
+
+.firstSectionText {
+	padding: 15% 5% 15% 5%;
+}
+
+.leftText {
+	width: 100%;
+}
+
+.landing {
+	background-attachment: scroll;
+}
+
+}

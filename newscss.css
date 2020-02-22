@@ -1080,14 +1080,12 @@
  }
  
 .newsTextHolder {
-	display: flex;
 	padding-bottom: 5%;
 	padding-top: 5%;
-	justify-content: space-between;
  }
  
  .textNews {
-	width: 65%;
+	width: 100%;
  }
  
 .textNews h4 {
@@ -1150,4 +1148,14 @@
 
 .newsTitleText p {
 	line-height: 30px;
+}
+
+#leftButton {
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.writebettercode {
+	line-height: 30px;
+	letter-spacing: 0.5px !important;
 }

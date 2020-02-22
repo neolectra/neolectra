@@ -1,0 +1,32 @@
+@media only screen and (max-width: 970px) {
+
+.textHolder h5 {
+	font-size: 50px;
+}
+
+.leftText h2 {
+	font-size: 40px;
+}
+
+.firstSectionTextFlex {
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+#BronteLeft {
+	padding-left: 5% !important;
+	padding-right: 5% !important;
+}
+
+#Bronte {
+	padding-left: 0 !important;
+	width: 100%;
+	padding-right: 0 !important;
+}
+
+.pictureHolder:before {
+	height: 350px;
+}
+
+
+}

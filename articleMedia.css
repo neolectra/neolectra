@@ -1,0 +1,39 @@
+@media only screen and (max-width: 970px) {
+
+.biggestNews h2 {
+	font-size: 50px;
+}
+
+.biggestNews {
+	padding: 25% 5% 15% 5%;
+}
+
+.newsHolder {
+	flex-wrap: wrap;
+}
+
+.news {
+	width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 750px)  {
+
+.biggestNews {
+	padding: 35% 5% 15% 5%;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+.biggestNews h2 {
+	font-size: 30px;
+}
+
+.biggestNews {
+	padding: 50% 5% 15% 5%;
+}
+
+}

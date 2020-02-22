@@ -1,0 +1,15 @@
+@media only screen and (max-width: 970px) {
+
+.landing {
+	background-attachment: scroll;
+}
+
+.partSection {
+	padding: 15% 5% 15% 5%;
+}
+
+.part {
+	width: 100%;
+}
+
+}

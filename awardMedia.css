@@ -1,0 +1,11 @@
+@media only screen and (max-width: 970px) {
+
+.awardImageHolder {
+	width: 100%;
+}
+
+.awardImageHolder img {
+	width: 100%;
+}
+
+}

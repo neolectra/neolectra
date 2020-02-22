@@ -1,0 +1,45 @@
+@media only screen and (max-width: 970px) {
+
+.biggestNews {
+	padding: 15% 5% 15% 5%;
+}
+
+.biggestNews h2 {
+	font-size: 50px;
+}
+
+.textNews {
+	width: 100%;
+	display: block !important;
+}
+
+.learnMoreContainer {
+	flex-wrap: wrap;
+}
+
+.news {
+	flex-wrap: wrap;
+}
+
+.newsImage {
+	width: 100%;
+}
+
+.newsTitleText {
+	width: 100%;
+	padding-top: 5%;
+}
+
+.landing {
+	background-attachment: scroll;
+}
+
+.newsImage {
+	padding-top: 8%;
+}
+
+.textNews img {
+	width: 100%;
+}
+
+}

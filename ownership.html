@@ -7,8 +7,12 @@
 	<link rel="stylesheet" href="ownershipcss.css">
 	<link rel="stylesheet" href="extracss.css">
 	<link rel="stylesheet" href="HeaderFooter.css">
-	<link rel="stylesheet" media="screen and (max-width: 750px)" href="HeaderFooterMedia.css">
-	<link rel="stylesheet" media="screen and (max-width: 750px)" href="indexMedia.css">
+	<link rel="stylesheet" media="screen and (max-width: 970px)" href="HeaderFooterMedia.css">
+	<link rel="stylesheet" media="screen and (max-width: 970px)" href="modelsMedia.css">
+	<link rel="stylesheet" media="screen and (max-width: 970px)" href="individualmodelsMedia.css">
+	<link rel="stylesheet" media="screen and (max-width: 970px)" href="individualMedia.css">
+	<link rel="stylesheet" media="screen and (max-width: 970px)" href="generalMedia.css">
+	<link rel="stylesheet" media="screen and (max-width: 970px)" href="ownershipMedia.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="resources/jquery.js"></script>
 	<link rel="icon" type="image/png" href="CarLogoFavicon.png" size = "16x16"/>
@@ -126,6 +130,77 @@
 			</div>
 		</ul>
 	</nav>
+	<span id = "Hamburger" class="Hamburger" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+ <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" id = "CloseButton" class="CloseButton" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <div class = "overlayHolder">
+    <a  href="index.html">Home</a>
+    <a href="models.html">Models</a>
+		<div class="phoneDropdown">
+			<a href="fulgora.html">Fulgora</a>
+				<div class = "insidePhone">
+					<a href="fulgora-xe.html">Fulgora XE</a>
+					<a href="fulgora-xe-neoquad.html">Fulgora XE NeoQuad</a>
+					<a href="fulgora-xe-tergo.html">Fulgora XE Tergo</a>
+				</div>
+			<a href="bronte.html">Bronte</a>
+				<div class = "insidePhone">
+					<a href="bronte-xfe-nitro.html">Bronte XFE Nitro</a>
+					<a href="bronte-xf-neoquad.html">Bronte XF NeoQuad</a>
+					<a href="bronte-xf-domus.html">Bronte XF Domus</a>
+				</div>
+			<a href="astrape.html">Astrape</a>
+			<a href="pele.html">Pele</a>
+			<a href="oya.html">Oya</a>
+		</div>
+	<a href="brand.html">Brand</a>
+		<div class="phoneDropdown">
+		   <a href="people.html">People</a>
+				<div class = "insidePhone">
+					<a href="sammy-urtzal.html">Sammy Urtzal</a>
+					<a href="peyton-everlue.html">Peyton Everlue</a>
+					<a href="joselyn-sputak.html">Joselyn Sputak</a>
+					<a href="laura-chen.html">Laura Chen</a>
+					<a href="sanjana-karnataki.html">Sanjana Karnataki</a>
+				</div>
+			<a href="history.html">History</a>
+			<a href="masterpieces.html">Masterpieces</a>
+			<a href="design.html">Design</a>
+			<a href="awards.html">Awards</a>
+		</div>
+	<a href="experience.html">Experience</a>
+		  <div class="phoneDropdown">
+		    <a href="news.html">News</a>
+			<a href="events.html">Events</a>
+			<a href="museum.html">Museum</a>
+			<a href="girl-powered.html">Girl-Powered</a>
+			<a href="social.html">Social</a>
+		  </div>
+	<a class = "active" href="ownership.html">Ownership</a>
+		<div class="phoneDropdown">
+			<a href="privacy-legal.html">Privacy/Legal</a>
+			<a href="warranties.html">Warranties</a>
+			<a href="accessories.html">Accessories</a>
+			<a href="guides-manuals.html">Guides/Manuals</a>
+			<a href="services.html">Services</a>
+		  </div>
+		<a href="lifestyle.html">Lifestyle</a>
+		<a href="contact.html">Contact</a>
+	</div>
+	</div>
+  </div>
+	<script>
+		function openNav() {
+		  document.getElementById("myNav").style.width = "100%";
+		  document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		  document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
 </header>
 <div id = "hideShow" class = "secondNav">
 <div id = "hiddenLogo" class = "logoBox">
