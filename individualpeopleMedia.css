@@ -1,0 +1,45 @@
+@media only screen and (max-width: 970px) {
+
+.carAndQuote {
+	flex-wrap: wrap;
+}
+
+.carHolder img {
+	width: 80%;
+}
+
+.imageHolder {
+	display: block !important;
+	width: 100%;
+	text-align: center;
+}
+
+.imageHolder img {
+	width: 80%;
+}
+
+.quoteBox {
+	width: 100%;
+}
+
+.universitySection {
+    padding: 5% 5% 15% 5%;
+}
+
+.MySlides {
+	background-attachment: scroll;
+}
+
+}
+
+@media only screen and (max-width: 540px) { 
+
+.imageHolder img {
+	width: 100%;
+}
+
+.universityImage img {
+	width: 100%;
+}
+
+}

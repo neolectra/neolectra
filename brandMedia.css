@@ -1,0 +1,25 @@
+@media only screen and (max-width: 970px) {
+
+.textHolder p {
+	width: 100%;
+}
+
+.transparentBackground {
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+}
+
+#longWritten {
+	width: 100%;
+}
+
+#bottomLinkCarHolder {
+	width: 100%;
+}
+
+#BronteLeftBottom {
+	width: 100%;
+	padding-right: 5% !important;
+	padding-left: 5%;
+}
+
+}

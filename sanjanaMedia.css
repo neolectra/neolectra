@@ -1,0 +1,11 @@
+@media only screen and (max-width: 970px) {
+
+.textHolder h5 {
+	font-size: 50px;
+}
+
+.textHolder h4 {
+	font-size: 30px;
+}
+
+}
