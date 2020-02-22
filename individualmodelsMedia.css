@@ -1,0 +1,34 @@
+@media only screen and (max-width: 970px) {
+	
+.designSection {
+	padding: 0 10% 0 10%;
+}
+
+.SlideShowContainer2 {
+	flex-wrap: wrap;
+	height: auto !important;
+}
+
+.DotContainer2 {
+	width: 100%;
+}
+
+.dot2 {
+	width: 25%;
+	height: 15vh;
+}
+
+.modelChoice {
+	padding: 10% 5% 10% 5%;
+}	
+
+.MySlides2  {
+	width: 100%;
+}
+
+.MySlides2 img{
+	height: 100% !important;
+	padding: 0 !important;
+}
+	
+}

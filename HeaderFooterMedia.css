@@ -225,7 +225,13 @@ a:link {
 	width: 100%;
 }
 
+.modelTitleHolder {
+	margin-top: 5%;
+}
 
+.downButton {
+	top: 83vh;
+}
 
   
 @media screen and (max-height: 450px) {
