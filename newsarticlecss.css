@@ -1,0 +1,44 @@
+.biggestNews {
+	padding-top: 250px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.pageNav {
+	padding-top: 150px;
+}
+
+.textNews {
+	width: 100%;
+}
+
+.textNews p {
+	margin-bottom: 15px;
+}
+
+.newsHolder {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news {
+	display: block !important;
+	width: 32%;
+}
+
+.newsImage {
+	width: 100%;
+}
+
+.newsTitleText {
+	width: 100%;
+	padding-top: 5%;
+}
+
+.learnMoreContainer {
+	padding-top: 5%;
+}
+
+.biggestNews {
+	padding-bottom: 0 !important;
+}

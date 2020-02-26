@@ -1,0 +1,961 @@
+
+
+.landing {
+    height: 100vh;
+    width: 100%;
+}
+
+.landing h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: white;
+	letter-spacing: 5px;
+	line-height: 42px;
+}
+
+.landing h2 {
+	color: white;
+	font-family: Thin, sans-serif;
+	font-size: 20px;
+	font-weight: 40;
+	line-height: 42px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.firstSection {
+	background-color: white;
+}
+
+.aboutUsSection {
+	margin: 0 15% 0 15%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+.aboutUsTitle, .quickStatsTitle, .teamTitleSection, .boardTitle, .eventTitle {
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px !important;
+	position: relative;
+}
+
+.aboutUsTitle h2:after, .teamTitleSection h2:after, .boardTitle h2:after, .eventTitle h2:after   {
+	position: absolute;
+	content: '';
+	height: 5px;
+	bottom: -8px;
+	margin: 0 auto;
+	left: 0;
+    right: 0;
+	width: 15%;
+	background: #dbb52f;
+}
+
+.quickStatsTitle h2:after{
+	position: absolute;
+	content: '';
+	height: 5px;
+	bottom: -8px;
+	margin: 0 auto;
+	left: 0;
+    right: 0;
+	width: 15%;
+	background: white;
+}
+
+.aboutUsTitle h2, .teamTitleSection h2, .boardTitle h2, .eventTitle h2 {
+	text-transform: uppercase;
+	color: black;
+	font-family: Roboto, sans-serif;
+	font-size: 45px;
+	font-weight: 900;
+}
+
+.quickStatsTitle h2 {
+	font-weight: 900;
+	color: white;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-family: Roboto, sans-serif;
+}
+
+.aboutUsArticle, .quickStatsArticle {
+	font-family: "Roboto", sans-serif;
+	line-height: 30px;
+	padding-top: 5%;
+}
+
+.aboutUsArticle p, .quickStatsArticle p {
+	margin-bottom: 15px;
+}
+
+
+.landingBackground {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titleHolder {
+	/*display: flex;
+	flex-wrap: wrap;
+	width: 30vw;
+	justify-content: center;
+	align-items: center;*/
+	text-align: center;
+}
+
+.titleHolder h1 {
+	display: flex;
+	text-align: center;
+}
+
+
+
+.titleHolder img {
+	padding-bottom: 3vh;
+	height: 121px;
+	width: 120px;
+}
+
+.navbar {
+	transition-duration: 0.3s;
+}
+
+.secondSection {
+	background-image: url("Company.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+}
+
+.secondSectionBackground {
+	background-image: linear-gradient(rgba(67, 90, 165, 0.4), rgba(219, 181, 47, 0.4));
+	width: 100%;
+}
+
+.quickStatSection {
+	padding-top: 8%;
+	padding-bottom: 8%;
+	height: 100%;
+}
+
+.Circle {
+	-moz-border-radius: 180px/180px;
+	-webkit-border-radius: 180px 180px;
+	border-radius: 180px/180px;
+	border: solid 3px white;
+	width: 180px;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-bottom: 3%;
+	flex-wrap: wrap;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+
+.Circle h2 {
+	text-align: center;
+	width: 100%;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 40px;
+	line-height: 42px;
+}
+
+.Circle h3 {
+	letter-spacing: 3px;
+	font-size: 15px; 
+}
+
+.circleContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 10vh 20% 10vh 20%;
+}
+
+.randomInfoContainer, .teamLogoContainer {
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+.firstStart, .location, .slogan, .teamLogo {
+	text-align: center;
+	width: 25%;
+}
+
+.teamLogo {
+	width: 40% !important;
+}
+
+.firstStart h3, .location h3, .slogan h3, .teamLogo h3 {
+	font-family: "Thick", sans-serif;
+	letter-spacing: 2px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.firstStart h2, .location h2, .slogan h2, .teamLogo h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	line-height: 42px;
+	font-weight: 300;
+}
+
+.thirdSection {
+	background-color: white;
+	padding-bottom: 8%;
+}
+
+.teamSection, .boardMemberSection, .eventSection {
+	padding-top: 8%;
+	padding-bottom: 8%;
+	margin: 0 10% 0 10%;
+}
+
+.boardMemberSection {
+	margin: 0 20% 0 20% !important;
+}
+
+
+.learnMoreContainer {
+	padding-top: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.teamSection {
+	padding-bottom: 0 !important;
+}
+
+.fourthSection {
+	background-color: #f0f0f0;
+}
+
+.learnMoreButton button {
+  color: #c49e00;
+  text-transform: uppercase;
+  background-color: Transparent;
+  border: 2px solid #c49e00;
+  z-index: 2;
+  padding: 15px 15px;
+    -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.learnMoreButton:hover button {
+   color: #626262;
+}
+
+.learnMoreButton:hover button {
+  border-color: #626262;
+ }
+ 
+.circleContainerBoard {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding-top: 5%;
+}
+
+.Circle2 {
+	background-position: center;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	cursor: pointer;
+} 
+
+.Circle2 img {
+	height: 250px;
+	width: 250px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.Circle2 img:focus {
+	outline: 0;
+}
+
+.Circle2:focus {
+	outline: 0;
+}
+
+
+
+.textContainer {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.CircleText {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.CircleText h2 {
+	font-family: "Thin", sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 18px;
+	font-weight: 50;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: black;
+	border: none;
+}
+
+.CircleText h3 {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #626262;
+}
+
+.fifthSection {
+	background-color: white;
+	padding-bottom: 8%;
+}
+
+
+
+.eventArticle {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 5%;
+}
+
+.event1, .event2, .event3 {
+	width: 30%;
+}	
+
+.holder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15vh;
+	border: 1px solid white;
+}
+
+#tooBig h3 {
+	font-size: 20px !important;
+}
+
+.event1 h3, .event2 h3, .event3 h3 {
+	background-color: rgba(51,51,51,0) !important;
+	text-align: center;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 50;
+	line-height: 42px;
+	letter-spacing: 1.5px;
+}
+
+.eventBottom1, .eventBottom2, .eventBottom3 {
+	padding: 6%;
+	padding-bottom: 0 !important;
+	font-family: "Roboto", sans-serif;
+	background-color: rgb(232, 245, 225);
+	color: #313143;
+	font-weight: 300 !important;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.eventBottom1 h3, .eventBottom2 h3, .eventBottom3 h3 {
+	color: #313143;
+	text-align: left !important;
+	margin-top: 0 !important;
+	text-transform: none;
+	padding-bottom: 4%;
+}
+
+.eventSection {
+	padding-bottom: 0 !important;
+}
+
+.moreEventsContainer {
+	padding-bottom: 8%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.moreEventsButton button {
+  color: rgb(147, 235, 26);
+  text-transform: uppercase;
+  background-color: rgba(255,255,255,0);
+  border: 2px solid white;
+  z-index: 2;
+  padding: 15px 15px;
+  margin: 35px;
+  color: white;
+    -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+
+.moreEventsButton:hover button {
+   color: rgb(213,220,59);
+}
+
+.moreEventsButton:hover button {
+  border-color: rgb(213,220,59);
+ }
+ 
+ .modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7 {
+	display: none;
+	position: fixed;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	justify-content: center;
+	align-items: center;
+ }
+
+ .modalContent, .modalContent2, .modalContent3, .modalContent4, .modalContent5, .modalContent6, .modalContent7 {
+	background-color: white;
+	margin: 15% 25% 15% 25%;
+	display: flex;
+ }
+ 
+ .close, .close2, .close3, .close4, .close5, .close6, .close7 {
+	color: #648058;
+	font-size: 40px;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-top: 20px;
+	height: 50px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+ }
+ 
+.close:hover, .close:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, .close5:hover, .close5:focus, .close6:hover, .close6:focus, .close7:hover, .close7:focus {
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}	
+
+.pictureHolder, .pictureHolder2, .pictureHolder3, .pictureHolder4, .pictureHolder5, .pictureHolder6, .pictureHolder7 {
+	width: 50%;
+	background-image: url("FillerPicture.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.pictureHolder {
+	background-image: url("Vishwa.jpg");
+}
+
+.pictureHolder2 {
+	background-image: url("Amol.jpg");
+}
+
+.pictureHolder3 {
+	background-image: url("Arav.jpg");
+}
+
+.pictureHolder4 {
+	background-image: url("Thorsten.jpg");
+}
+
+.pictureHolder5 {
+	background-image: url("AlexEvans.jpg") !important;
+}
+
+.pictureHolder6 {
+	background-image: url("Aaryan.jpg");
+}
+
+.pictureHolder7 {
+	background-image: url("Patel.jpg");
+}
+
+.textModal, .textModal2, .textModal3, .textModal4, .textModal5, .textModal6, .textModal7 {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	overflow: auto;
+	height: 65vh;
+}
+
+.textHolder {
+	background-color: white;
+	width: 100%;
+	padding: 8%;
+	padding-right: 0!important;
+	color: #53614c;
+	position: absolute;
+	z-index: 2 !important;
+}
+
+
+.textHolder h4 {
+	font-family: Thick, sans-serif;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+
+.textHolder p {
+	font-family: "Roboto", sans-serif;
+	line-height: 42px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+ .modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7 {
+   animation: opac 0.3s;
+ }
+
+ @keyframes opac {
+   from {
+     opacity: 0
+   }
+   to {
+     opacity: 1
+   }
+ }
+ 
+.imageHolder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3%;
+} 
+
+.imageHolder img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SlideShowContainer {
+  position: relative;
+  margin: auto;
+  width: 100% !important;
+  height: 100vh;
+  background-color: black;
+}
+
+
+.MySlides img, .MySlides video {
+  width: 100%;
+  height: 100vh;
+  cursor: pointer;
+  object-fit: cover;
+ }
+ 
+.MySlides {
+  display: none;
+ }
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  padding: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300 !important;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  height: 50px;
+  width: 20px;
+  user-select: none;
+  z-index: 3 !important;
+}
+
+.prev i, .next i {
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+
+.prev i:hover, .next i:hover {
+	color: #dbb52f;
+}
+
+.next {
+  top:45%;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.downButton {
+	height: 5vh;
+	width: 5vh;
+	position: absolute;
+	top: 88vh;
+	z-index: 5;
+	margin-left: 47.5vw;
+	transform: rotate(135deg);
+	box-shadow: 2px -2px 0 #dbb52f;
+	border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgba(255,255,255,0);
+   -webkit-transition: width 0.4s, height 0.4s, -webkit-transform 0.4s; /* Safari */
+  transition: width 0.4s, height 0.4s, transform 0.4s;
+}
+
+.downButton:hover {
+	 box-shadow: 2px -2px 0 #dbb52f;
+	 height: 5.5vh;
+	 width: 5.5vh;
+}
+
+.DotContainer {
+  position: absolute;
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Dots {
+  display: flex;
+  padding-left: 2%;
+  align-items: center;
+  margin-top: 90vh;
+  position: absolute;
+  z-index: 2;
+  width: 98%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 3vh;
+  width: 8vh;
+  margin: 0 2px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  transition: border-color 0.6s ease;
+  margin: 10px;
+}
+
+.Active, .dot:hover {
+ border-color: #dbb52f;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.textHolder {
+	position: absolute;
+	top: 20vh;
+	background-color: Transparent;
+	width: 50%;
+	padding: 0;
+	margin-left: 10vw;
+}
+
+.textHolder {
+	font-family: "Segoe UI", "Helvetica Neue";
+	color: white;
+	text-transform: uppercase;
+}
+
+.textHolder h4 {
+	font-size: 45px;
+	font-weight: bold;
+	font-stretch: condense;
+}
+
+.textHolder p {
+	font-size: 50px;
+	font-weight: 100 !important;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+.textHolder a {
+	background-color: #c49e00;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	color: white;
+	font-weight: 100 !important;
+	padding: 8px;
+	padding-left: 13px;
+	padding-right: 13px;
+	cursor: pointer;
+	z-index: 3 !important;
+}
+
+.textHolderInner {
+	padding: 8px;
+	padding-left: 0 !important;
+	padding-left: 13px;
+	padding-right: 13px;
+	z-index: 2;
+}
+
+.transparentBackground {
+	height: 100vh;
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+}
+
+.modelSection {
+	width: 31%;
+	margin-bottom: 3%;
+}
+
+.modelSection img {
+	width: 100%;
+}
+
+.aboutUsArticle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.modelSection a {
+	color: black;
+}
+
+.modelSection p {
+	color: rgb(68,68,68);
+}
+
+.linkHolder {
+	width: 100%;
+}
+
+.linkHolder a {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.1px;
+	font-size: 15px;
+	font-family: Roboto, sans-serif;
+}
+
+
+.linkHolder a::after  {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #dbb52f;
+    transition: width .3s;
+}
+
+.linkHolder a:hover::after  {
+    width: 40%;
+    //transition: width .3s;
+}
+
+.modelSection img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}	
+
+.newsImageBackground, .newsImageBackground2 {
+	background-image: url("OrangeCar.jpeg");
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	transition-duration: 0.3s;
+	z-index: 1;
+}
+
+.newsImageBackground2 {
+	height: 100%;
+}
+
+
+.newsBox1 {
+	overflow: hidden;
+	width: 100%;
+}
+
+.newsBox2 {
+	overflow: hidden;
+	width: 49%;
+	overflow: hidden;
+}
+
+.newsBox3 {
+	overflow: hidden;
+	height: 97.5% !important;
+	overflow: hidden;
+}
+
+.newsBox4 {
+	overflow: hidden;
+	height: 100% !important;
+	overflow: hidden;
+}
+
+#marginRight {
+	margin-right: 3%;
+}
+
+.overallNewSection {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5%;
+}
+
+.overallNewSectionEvent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.overallHolder {
+	padding-top: 5%;
+}
+
+.leftNewSection {
+	width: 58%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.rightNewSection {
+	width: 40.5%;
+}
+
+.box2Holder {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.newsImageBackground:hover, .newsImageBackground2:hover {
+	transform: scale(1.1);
+}
+
+.leftNewSection h4, .rightNewSection h4 {
+	position: relative;
+	bottom: 12%;
+	left: 5%;
+	font-family: "Segoe UI", Roboto, sans-serif;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+.rightNewSection h4 {
+	bottom: 6vh;
+	width: 95%;
+}
+
+.newsBoxInner1, .newsBoxInner2 {
+	overflow: hidden;
+	z-index: 3 !important;
+}
+
+.newsBoxInner2 {
+	height: 97.5%;
+}
+
+
+.filterInside {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0), rgba(0,0,0,0.9));
+}
+
+.topSection {
+	background-color: #f0f0f0;
+	height: 400px;	
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.5%;
+}
+
+.innerTopLeft, .innerTopRight {
+	height: 100%;
+	width: 58%;
+}
+
+.innerTopRight {
+	width: 42% !important;
+}
+
+
+.greyBox {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+.greyBoxText {
+	width: 82%;
+	height: 84%;
+	font-family: "Segoe UI", Roboto, sans-serif;
+	line-height: 35px;
+}
+
+.greyBoxText h4 {
+	font-size: 22px;
+}
+
+.greyBoxText p {
+	font-size: 20px;
+	font-weight: 300 !important;
+	line-height: 30px !important;
+}
+
+#eventButton {
+	display: flex;
+	justify-content: left;
+}
+
+.date {
+	font-weight: 500;
+	color: #dbb52f;
+}	
+ 
+ 

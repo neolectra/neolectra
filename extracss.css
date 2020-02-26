@@ -1,0 +1,94 @@
+.secondNav {
+   top: 65px;
+   width: 100%;
+   height: 40px;
+   padding-bottom: 5px;
+   position: fixed;
+   background-color: Transparent;
+   display: flex;
+   align-items: flex-start !important;
+   z-index: 20000;
+ }	
+ 
+ .navList  li {
+  display: flex;
+  justify-content: center;
+ }
+ 
+ .navList li a {
+	color: white;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
+	padding-right: 35px;
+	font-size: 14px;
+ }
+ 
+ .firstList {
+	padding-left: 10px;
+ }
+ 
+ .navList {
+	width: 100%;
+	display: flex;
+	height: 100%;
+	align-items: center;
+ }
+ 
+ #hiddenLogo {
+	visibility: hidden;
+ }
+ 
+ 
+/*.dropButtonAbout, .dropButtonMedia, .dropButtonOverview {
+	display: flex;
+	align-content: flex-end !important;
+	height: 70px !important;
+}
+
+.secondBox {
+	align-self: flex-end !important;
+}
+
+.navList li a {
+	text-decoration: none;
+}*/
+
+
+/*.linkHolder a::after  {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #dbb52f;
+    transition: width .3s;
+}
+
+.linkHolder a:hover::after  {
+    width: 40%;
+    //transition: width .3s;
+}*/
+
+.navList li a::after{
+    content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #dbb52f;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navList li a:hover::after  {
+   visibility: visible;
+  transform: scaleX(1);
+}
+
+
+/*.dropDownContentAbout {
+	padding-top: 25px !important;
+}
+
+.dropDownInsideAbout {
+	padding-top: 20px !important;
+}*/

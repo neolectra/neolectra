@@ -1,0 +1,556 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 110px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
+	position: fixed;
+	z-index: 100;
+}
+
+
+.logoBox {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+
+.logoBox a {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.logoBox a img {
+	object-fit: contain;
+	height: 100%;
+}
+
+.secondBox {
+	width: 40%;
+	margin-right: 5%;
+}
+
+.headerList {
+	height: 70px; 
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	height: 70px;
+	width: 100%;
+}
+
+
+.active {
+	color:#dbb52f !important; 
+}
+
+.dropButtonAbout, .dropButtonOverview, .dropButtonMedia {
+	border: none;
+	background-color: Transparent;
+	height: 110px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-stretch: condensed;
+	font-weight: 300 !important;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.dropButtonAbout:focus, .dropButtonOverview:focus, .dropButtonMedia:focus {
+	outline: 0;
+}
+
+.insideButtonAbout, .insideButtonAbout2, .insideButtonAbout3, .insideButtonAbout4, .insideButtonAbout5, .insideButtonAbout6, .insideButtonAbout7 {
+	border: none;
+	background-color: Transparent;
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	text-transform: uppercase;
+	cursor: pointer;
+	width: 25%;
+	text-align: left;
+	display: flex !important;
+	justify-content: space-between;
+}
+
+#rightArrow {
+	width: 5px;
+}
+
+.name, .name2 {
+	width: 100%;
+	font-size: 15px !important;
+}
+
+.dropDownContentMedia a {
+	font-family: Roboto, sans-serif;
+	font-size: 15px !important;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+
+.dropDownContentAbout .name::after , .dropDownContentOverview .name::after, .dropDownContentMedia a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #dbb52f;
+    transition: width .3s;
+	margin-top: 15px;
+}
+
+.dropDownContentAbout .name:hover::after , .dropDownContentOverview .name:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.dropDownContentMedia a:hover::after {
+	width: 20% !important;
+}
+
+.dropDownContentAbout .name2::after , .dropDownContentOverview .name2::after, .dropDownContentMedia a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #dbb52f;
+    transition: width .3s;
+	margin-top: 15px;
+}
+
+.dropDownContentAbout .name2:hover::after , .dropDownContentOverview .name2:hover::after, .dropDownContentMedia a:hover::after {
+    width: 30%;
+    //transition: width .3s;
+}
+
+
+.dropButtonAbout a, .dropButtonOverview a, .dropButtonMedia a {
+	color: white;
+}  
+
+/*
+.dropButtonAbout a::after, .dropButtonOverview a::after, .dropButtonMedia a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #dbb52f;
+    transition: width .3s;
+}
+
+.dropButtonAbout a:hover::after, .dropButtonOverview a:hover::after, .dropButtonMedia a:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+*/
+
+
+.dropDownContentAbout a, .dropDownContentOverview a, .dropDownContentMedia a {
+	-webkit-transition-duration: 0.3s; 
+	transition: 0.3s;
+}
+
+
+.dropDownContentAbout, .dropDownContentOverview, .dropDownContentMedia {
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 100;
+	position: absolute;
+	background-color: rgba(32,32,32,0.8);
+	font-size: 17px;
+	width: 100%;
+	left: 0;
+	padding-left: 10%;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.dropDownContentAbout a, .dropDownContentOverview a, .dropDownContentMedia a {
+	display: block;
+	padding: 15px 15px 15px 15px;
+	color: white;
+	cursor: pointer;
+}
+
+.dropDownContentAbout button {
+	display: block;
+}
+
+.dropDownContentAbout a:hover, .dropDownContentOverview a:hover, .dropDownContentMedia a:hover {
+	cursor: pointer;
+}
+
+.dropDownAbout:hover .dropDownContentAbout, .dropDownOverview:hover .dropDownContentOverview, .dropDownMedia:hover .dropDownContentMedia {
+	display: block;
+	cursor: pointer;
+}
+/**/
+.dropDownInsideAbout, .dropDownInsideAbout2, .dropDownInsideAbout3, .dropDownInsideAbout4, .dropDownInsideAbout5, .dropDownInsideAbout6, .dropDownInsideAbout7 {
+	display: none;
+	z-index: 100;
+	position: absolute;
+	font-size: 17px;
+	width: 68%;
+	right: 0;
+	top: 15px;
+	height: 95%;
+}
+
+.dropDownInsideAbout a , .dropDownInsideAbout2 a, .dropDownInsideAbout3 a, .dropDownInsideAbout4 a, .dropDownInsideAbout5 a , .dropDownInsideAbout6 a, .dropDownInsideAbout7 a     {
+	display: block;
+	padding: 15px 15px 15px 15px;
+	color: white;
+	cursor: pointer;
+}
+
+.dropDownInsideAbout a:hover , .dropDownInsideAbout2 a:hover, .dropDownInsideAbout3 a:hover, .dropDownInsideAbout4 a:hover, .dropDownInsideAbout5 a:hover, .dropDownInsideAbout6 a:hover, .dropDownInsideAbout7 a:hover  {
+	cursor: pointer;
+}
+
+.test1:hover .dropDownInsideAbout, .test2:hover .dropDownInsideAbout2, .test3:hover .dropDownInsideAbout3, .test4:hover .dropDownInsideAbout4, .test5:hover .dropDownInsideAbout5, .test6:hover .dropDownInsideAbout6, .test7:hover .dropDownInsideAbout7 {
+	display: block;
+	cursor: pointer;
+}
+
+
+
+
+
+a:link {
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	background-image: url("FooterBackground4.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: Roboto, sans-serif;
+ }
+ 
+ 
+ .leftSection {
+	margin-left: 5%;
+	width: 50%;
+	height: 70%;
+ }
+ 
+ .leftTopSection {
+	display: flex;
+	font-family: Roboto, sans-serif;
+	color: white;
+	line-height: 40px;
+	letter-spacing: 1.5px;
+ }
+
+.FooterLinks li {
+	display: inline-block;
+	color: white;
+	line-height: 20px !important;
+}
+
+.FooterLinks {
+	list-style-top: none;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+}
+
+.wordsSection {
+	font-size: 30px;
+	padding-left: 5%;
+	border-left: 2px solid white;
+}
+
+.wordsSection h4, .wordsSection h5 {
+	font-weight: 50;
+}
+
+.wordsSection h4 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.wordsSection h5 {
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.Link {
+	color: white;
+}
+
+.Link:hover {
+	text-decoration: underline;
+}
+
+
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-youtube, .fa-pinterest, .fa-linkedin-in {
+  font-size: 25px;
+  color: white;
+}
+
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-pinterest:hover, .fa-linkedin-in:hover  {
+  color: #dbb52f !important;
+  cursor: pointer;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-youtube, .fa-pinterest, .fa-linkedin-in {
+  -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+}
+
+.social {
+	color: white;
+}
+
+.blogButton button {
+  color: #dbb52f;
+  text-transform: uppercase;
+  background-color: rgba(255,255,255,0);
+  border: 2px solid white;
+  z-index: 2;
+  padding: 15px 15px;
+  color: white;
+    -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.blogButton:hover button {
+   color: rgb(213,220,59);
+}
+
+.blogButton:hover button {
+  border-color: rgb(213,220,59);
+ }
+ 
+ .rightSection {
+	width: 25%;
+	margin-right: 30px;
+ }
+ 
+ .blog {
+	color: white;
+	font-family: Roboto, sans-serif;
+ }
+ 
+ .blog h5 {
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	line-height: 40px;
+ }
+ 
+ .blog p {
+	line-height: 30px;
+ }
+ 
+ #mybtn {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(135deg);
+  box-shadow: -4px 4px 0 rgba(219, 181, 47,0.5);
+  bottom: 20px;
+  right: 30px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  display: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  background-color: rgba(255,255,255,0);
+   -webkit-transition-duration: 0.3s; 
+  transition-duration: 0.3s;
+  z-index: 9999999999 !important;
+}
+
+#mybtn:hover {
+  box-shadow: -4px 4px 0 rgba(219, 181, 47, 1);
+}
+
+#active {
+	color: #dbb52f !important; 
+}
+
+.navbar {
+	transition-duration: 0.3s;
+	background-color: rgb(0,0,0,0.8);
+}
+
+.footerLogoHolder {
+	display: flex;
+	align-items: center;
+	width: 30%;
+}
+
+.footerLogoHolder img {
+	width: 100% !important;
+}
+ 
+.overlay {
+	display: none;
+}
+
+.Hamburger {
+	display: none;
+}
+
+.hamburgerHolder {
+	display: none;
+}
+
+.titleHolder img {
+	padding-bottom: 3vh;
+	height: 121px;
+	width: 120px;
+}
+
+.wordsSection h4 {
+	color: white;
+}
+
+
+.footerLogoHolder {
+	margin-right: 2%;
+}
+
+
+.dropDownAbout:hover .dropButtonAbout , .dropDownOverview:hover .dropButtonOverview , .dropDownMedia:hover .dropButtonMedia  {
+  border-bottom: solid 2px #dbb52f;
+  padding-top: 1px;
+}
+
+.test1:hover .fa-angle-right, .test2:hover .fa-angle-right, .test3:hover .fa-angle-right, .test4:hover .fa-angle-right, .test5:hover .fa-angle-right, .test6:hover .fa-angle-right, .test7:hover .fa-angle-right{
+	color: #dbb52f;
+}
+
+.footerFilter {
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerHolder {
+	height: 100%;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.footerSection {
+	width: 23%;
+	line-height: 40px;
+}
+
+.footerSection a {
+	color: white;
+}
+
+.underlineFooter {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.linkHolderFooter {
+	font-size: 16px;
+}
+
+.linkHolderFooter a {
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	color: #f0f0f0;
+	letter-spacing: 1px;
+}
+
+.linkHolderFooter a:hover {
+	color: #dbb52f;
+}
+
+.linkHolderFooter a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #dbb52f;
+    transition: width .3s;
+}
+
+.linkHolderFooter a:hover::after  {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.footerBottom {
+	padding-top: 3%
+}
+
+.footerSocial {
+	text-align: center;
+}
+
+.FooterLinks li p {
+	padding-top: 20px;
+}
+
+.footerSectionOverall {
+	width: 70vw;
+}
+
+.footerWords {
+	display: flex;
+	align-items: center;	
+	justify-content: center;
+	padding-top: 15px;
+}
+
+
+.footerWords h4 {
+	font-family: Roboto, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	padding-right: 30px;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-youtube, .fa-pinterest {
+	padding-top: 0 !important;
+	padding-right: 30px;
+}
+
+.copyright {
+	color: white;
+	letter-spacing: 1px;
+	padding-top: 15px;
+}
+	

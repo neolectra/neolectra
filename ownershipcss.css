@@ -1,0 +1,457 @@
+.SlideShowContainer {
+  position: relative;
+  margin: auto;
+  width: 100% !important;
+  height: 100vh;
+  background-color: black;
+}
+
+
+.MySlides img, .MySlides video {
+  width: 100%;
+  height: 100vh;
+  cursor: pointer;
+  object-fit: cover;
+ }
+ 
+.MySlides {
+  display: none;
+ }
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  padding: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300 !important;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  height: 50px;
+  width: 20px;
+  user-select: none;
+  z-index: 3 !important;
+}
+
+.prev i, .next i {
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+
+.prev i:hover, .next i:hover {
+	color: #dbb52f;
+}
+
+.next {
+  top:45%;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.downButton {
+	height: 5vh;
+	width: 5vh;
+	position: absolute;
+	top: 88vh;
+	z-index: 5;
+	margin-left: 47.5vw;
+	transform: rotate(135deg);
+	box-shadow: 2px -2px 0 #dbb52f;
+	border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgba(255,255,255,0);
+   -webkit-transition: width 0.4s, height 0.4s, -webkit-transform 0.4s; /* Safari */
+  transition: width 0.4s, height 0.4s, transform 0.4s;
+}
+
+.downButton:hover {
+	 box-shadow: 2px -2px 0 #dbb52f;
+	 height: 5.5vh;
+	 width: 5.5vh;
+}
+
+.DotContainer {
+  position: absolute;
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Dots {
+  display: flex;
+  padding-left: 2%;
+  align-items: center;
+  margin-top: 90vh;
+  position: absolute;
+  z-index: 2;
+  width: 98%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 3vh;
+  width: 8vh;
+  margin: 0 2px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  transition: border-color 0.6s ease;
+  margin: 10px;
+}
+
+.Active, .dot:hover {
+ border-color: #dbb52f;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.textHolder {
+	position: absolute;
+	top: 20vh;
+	padding: 0;
+	margin-left: 10vw;
+	z-index: 2 !important;
+	font-family: "Segoe UI", "Helvetica Neue";
+	color: white;
+	text-transform: uppercase;
+}
+
+.textHolder h4 {
+	font-size: 40px;
+	font-weight: 300;
+	font-stretch: condensed;
+	letter-spacing: 1.5px;
+}
+
+.textHolder p {
+	font-size: 20px;
+	font-weight: 400 !important;
+	text-transform: none;
+	margin-top: 15px;
+	width: 40%;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+
+.textHolderInner {
+	padding: 8px;
+	padding-left: 0 !important;
+	padding-left: 13px;
+	padding-right: 13px;
+	z-index: 3 !important;
+}
+
+.transparentBackground {
+	height: 100vh;
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+	width: 100%;
+	z-index: 1 !important;
+	position: absolute;
+}
+
+
+.textHolder h5 {
+	font-weight: bold !important;
+	color: white;
+	font-size: 70px;
+	line-height: 80px;
+}
+
+.modelTitleHolder {
+	width: 50%;
+	margin-right: 5%;
+}
+
+.firstSectionText {
+	background-color: white;
+	padding: 8% 0% 1% 8%;
+}
+
+#BronteLeft {
+	padding-right: 8% !important;
+	width: 40%;
+}
+
+
+#BronteFirstSection {
+	padding-left: 0 !important;
+}
+
+#peleSection {
+	padding-left: 0 !important;
+}
+
+#Bronte {
+	width: 100%;
+}
+
+.firstSectionTextFlex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.firstSection {
+	padding-bottom: 8%;
+}
+
+
+.pageNav {
+	margin-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	border-bottom: 1px solid #e0e0e0;
+	font-family: Roboto, sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.pageNav p  a{
+	color: black;
+}
+
+.changeColor {
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+}
+
+.changeColor:hover {
+	color: #dbb52f;
+}
+
+.firstSectionText h2 {
+	font-family: "Segoe UI", sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.firstSectionText p {
+	font-family: 'Open Sans', Roboto, sans-serif;
+	line-height: 30px;
+	font-weight: 300;
+	padding-top: 3%;
+}
+
+
+/*.skewText {
+	background-color: red;
+}*/
+
+.pictureHolder {
+	display: flex;
+	justify-content: space-between;
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0;
+	transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
+	will-change: transform, opacity;
+}
+
+.pictureHolder:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 480px;
+	z-index: -1;
+	background: url("SandBackground.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#pictureHolder2:before {
+	background: url("RaceTrack.jpeg");
+	background-position: center bottom;
+}
+
+.leftText {
+	width: 49%;
+	padding-right: 2%;
+}
+
+#BronteLeft {
+	padding-right: 8%;
+	text-align: right;
+}
+
+.imageHolder {
+	width: 49%;
+	background-image: url("TestInside.jpg");
+	opacity: 0;
+	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
+              opacity .3s 0.25s ease-out;
+	will-change: transform, opacity;
+	height: 480px;
+}
+
+/*.pictureHolder::after {
+	content: '';
+	position: absolute;
+	width: 31%;
+	height: 400px;
+	z-index: -1;
+	left: 0;
+	background: url("WhiteTriangle.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+.carOnSkew {
+	height: 450px;
+	align-self: flex-end;
+	opacity: 0;
+	transition: transform 4s 0.40s cubic-bezier(0,1,.3,1),
+              opacity .3s 0.40s ease-out;
+	will-change: transform, opacity;
+}
+
+.carOnSkew.is-visible, .pictureHolder.is-visible, .imageHolder.is-visible {
+  opacity: 1;
+}
+
+.whiteTriangle {
+	height: 480px;
+	width: 350px;
+	align-self: flex-start;
+}
+
+#whiteTriangleOpp {
+	align-self: flex-end;
+}
+
+#whiteTriangleOpp2 {
+	align-self: flex-start;
+}
+
+#BronteImage {
+	display: flex;
+	justify-content: flex-end !important;
+	width: 50%;
+}
+
+
+.linkCar {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 8% 0 8%;
+	flex-wrap: wrap;
+}
+
+.linkCarHolder {
+	font-family: "Segoe UI", sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	width: 28%;
+	padding-left: 10px;
+	border-bottom: 3px solid rgb(214, 159, 51);
+	padding-bottom: 10px;
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+}
+
+.linkCarHolder a {
+	color: rgb(214, 159, 51);
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+}
+
+.lilLet {
+	font-weight: 100 !important;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+
+
+.linkCarHolder:hover  > .onHoverInside {
+	color: black;
+}
+
+.linkCarHolder:hover {
+	border-bottom: 3px solid black;
+	cursor: pointer;
+}
+
+.bottomOfPage {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bottomSquareLink {
+	height: 50vh;
+	width: 33.33333%;
+	overflow: hidden;
+}
+
+.bottomSquareBackground {
+	height: 100%;
+	width: 100%;
+	background-image: url("RedCar.jpeg");
+	background-size: cover;
+	background-position: center;
+	transition-duration: 0.8s;
+	-webkit-transition-duration: 0.8s;
+}
+
+.filterSquareBackground {
+	background-color: rgba(0,0,0,0.3);
+	height: 100%;
+	width: 100%;
+	transition-duration: 0.8s;
+	-webkit-transition-duration: 0.8s;
+}
+
+.bottomSquareBackground:hover {
+	transform: scale(1.2);
+}
+
+.bottomSquareBackground:hover > .filterSquareBackground {
+	background-color: rgba(0,0,0,0);
+}
+
+#square2 {
+	background-image: url("OrangeCar.jpeg");
+}	
+
+.wordSquareHolder {
+	position: relative;
+	bottom: 55%;
+	text-align: center;
+	font-family: "Segoe UI", Roboto, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.wordSquareHolder span {
+	font-weight: 100;
+}
+
