@@ -229,7 +229,6 @@ body {
 }
 
 .firstSection {
-	padding-bottom: 8%;
 	background-image: url("RedCar.jpeg");
 	height: 100%;
 	width: 100%;
@@ -653,9 +652,10 @@ body {
 }
 
 .overallTransparent {
-	background-color: rgba(32,32,32,0.6);
+	background-color: rgba(32,32,32,0.8);
 	height: 100%;
 	width: 100%;
+	padding-bottom: 8%;
 }
 
 .line {
@@ -680,11 +680,16 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 8%;
+	align-items: center;
 }
 
 .imageHolderHistory img {
-	width: 48%;
+	width: 100%;
 	border: 4px solid white;
+}
+
+.imageInside {
+	width: 48%;
 }
 
 #threeYears {
@@ -693,4 +698,24 @@ body {
 
 #shorterLine {
 	width: 20%;
+}
+
+#Year2005 {
+	background-image: url("UniversityPic.jpg") !important;
+}
+
+#Year1996 {
+	background-image: url("HistoryBackground.jpeg") !important;
+}
+
+#Year2009 {
+	background-image: url("CarCompany.jpeg") !important;
+}
+
+#Year2013 {
+	background-image: url("EnvironmentalStrides.jpeg") !important;
+}
+
+#Year2017 {
+	background-image: url("Fans.jpeg") !important;
 }

@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("EditedRoadster.png");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -122,7 +122,7 @@
 .dot {
   cursor: pointer;
   height: 3vh;
-  width: 16.66%;
+  width: 20%;
   background-color: transparent;
   border-top: 4px solid white;
   display: inline-block;
@@ -369,7 +369,7 @@
 	width: 100%;
 	height: 540px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("Mountainside.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -393,7 +393,7 @@
 
 .imageHolder {
 	width: 50%;
-	background-image: url("RedCar.jpeg");
+	background-image: url("Hawaii.jpeg");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
@@ -406,6 +406,7 @@
 
 #shorter {
 	height: 480px;
+	background-image: url("PeleDesign.jpeg");
 }
 
 /*.pictureHolder::after {
@@ -833,7 +834,7 @@
 	width: 100%;
 	height: 580px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("PeleInterior.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -841,10 +842,11 @@
 
 #BronteImage {
 	height: 480px;
+	background-image: url("PeleRedInsideFixed.png");
 }
 
 .interiorBackground {
-	background-image: url("InsideCar.jpeg");
+	background-image: url("RoadsterInterior.jpg");
 	height: 75vh;
 	width: 100%;
 	background-attachment: fixed;
@@ -989,4 +991,6 @@
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
-
+#hidePicture {
+	visibility: hidden !important;
+}
