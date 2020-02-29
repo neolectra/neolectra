@@ -792,12 +792,10 @@
     //transition: width .3s;
 }
 
-.modelSection img {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}	
+
 
 .newsImageBackground, .newsImageBackground2 {
-	background-image: url("OrangeCar.jpeg");
+	background-image: url("fulgora-x.jpg");
 	background-position: center;
 	background-size: cover;
 	height: 400px;
@@ -858,6 +856,10 @@
 	flex-wrap: wrap;
 }
 
+#longerSide {
+	width: 100%;
+}
+
 .rightNewSection {
 	width: 40.5%;
 }
@@ -892,8 +894,9 @@
 	z-index: 3 !important;
 }
 
+
 .newsBoxInner2 {
-	height: 97.5%;
+	height: 95%;
 }
 
 
@@ -958,4 +961,22 @@
 	color: #dbb52f;
 }	
  
+ #dif1 {
+	background-image: url("coding-promo.png");
+ }
  
+ #dif2 {
+	background-image: url("NeolectraLogo.png");
+ }
+ 
+#dif3 {
+	background-image: url("SafetyAward.png");
+}
+
+#dif4 {
+	background-image: url("SammyUrtzal.png");
+}
+
+#dif5 {
+	background-image: url("neo-women-promo.png");
+}
