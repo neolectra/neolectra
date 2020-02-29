@@ -17,7 +17,7 @@
   cursor: pointer;
   object-fit: cover;
  }
- 
+
  .landing  {
 	background-image: url("SandBackground.jpeg");
 		background-attachment: fixed;
@@ -25,7 +25,7 @@
 	width: 100%;
 	background-size: cover;
  }
- 
+
 .MySlides2 {
   display: none;
  }
@@ -209,22 +209,22 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade{
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @-webkit-keyframes fade2 {
- from {opacity: .4} 
+ from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade2 {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -555,7 +555,7 @@
 
 #square2 {
 	background-image: url("OrangeCar.jpeg");
-}	
+}
 
 .wordSquareHolder {
 	position: relative;
@@ -634,7 +634,7 @@
 	height: 25%;
 	width: 50%;
 	background-size: cover;
-	padding: 0 !important; 	
+	padding: 0 !important;
 	margin: 0 !important;
 	cursor: pointer;
 }
@@ -704,7 +704,7 @@
  #Hide:hover, #Hide2:hover, #Hide3:hover, #Hide4:hover,  #Hide5:hover, #Hide6:hover, #Hide7:hover,  #Hide8:hover, #Hide9:hover  {
   color: #dbb52f;
  }
- 
+
  .minusHolder p {
 	font-size: 40px;
 }
@@ -743,7 +743,7 @@
    display: none;
    margin-top: 15px;
  }
- 
+
  .modelChoice {
 	padding: 8% 20% 8% 20%;
 	background-color: #f0f0f0;
@@ -759,7 +759,7 @@
 	width: 100%;
 	padding-top: 15px;
 }
- 
+
  .writtenSection h2 {
 	font-weight: 300;
 	padding-bottom: 15px;
@@ -795,7 +795,7 @@
   border: 2px solid #c49e00;
   z-index: 2;
   padding: 15px 15px;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -807,15 +807,19 @@
 .learnMoreButton:hover button {
   border-color: #626262;
  }
- 
+
  .leftTextHolder {
 	padding-top: 5%;
  }
- 
+
+ .leftTextHolder h3 {
+   font-family: Segoe UI;
+ }
+
  #fulgoraSection2 {
 	padding-top: 0 !important;
  }
- 
+
 
 .pictureHolder2 {
 	display: flex;
@@ -904,7 +908,7 @@
   border: 2px solid #c49e00;
   z-index: 2;
   padding: 15px 15px;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -916,11 +920,11 @@
 .learnMoreButton:hover button {
   border-color: black;
  }
- 
+
  .customizeSection {
 	padding: 0 20% 8% 20%;
  }
- 
+
 .titleButtonHolder {
 	text-align: center;
 	font-family: "Segoe UI", "Helvetica Neue";
@@ -991,4 +995,7 @@
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
-
+li {
+  font-family: Segoe UI;
+  font-size: 16px;
+}
