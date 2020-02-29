@@ -19,7 +19,7 @@
  }
 
  .landing  {
-	background-image: url("car-wash.jpg");
+	background-image: url("CarWash.jpeg");
 	background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -395,7 +395,7 @@
 
 .imageHolder {
 	width: 50%;
-	background-image: url("neocare-triangle.jpg");
+	background-image: url("CarWash2.jpeg");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
