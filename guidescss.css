@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("SocialBackground.jpeg");
+	background-image: url("GuidesManuals.jpeg");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -1007,4 +1007,19 @@
 
 .socialMediaLink li a:hover {
 	color:  #dbb52f;
+}
+
+.imageHolderGuides {
+	margin-top: 8%;
+}
+
+.imageHolderGuides img {
+	width: 100%;
+}
+
+.insideBronteText  h3{
+	font-family: Roboto, sans-serif;
+	font-weight: 500 !important;
+	margin-top: 30px;
+	margin-bottom: 0 !important;
 }
