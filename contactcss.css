@@ -1008,3 +1008,8 @@
 .socialMediaLink li a:hover {
 	color:  #dbb52f;
 }
+
+.copyright a {
+	color: white;
+	line-height: 30px;
+}
