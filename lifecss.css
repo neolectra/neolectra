@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("DesignBackground.jpeg");
+	background-image: url("Lifestyle.jpeg");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -377,7 +377,7 @@
 	width: 100%;
 	height: 540px;
 	z-index: -1;
-	background: url("CarDesign2.jpeg");
+	background: url("Fashion.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -401,7 +401,7 @@
 
 .imageHolder {
 	width: 50%;
-	background-image: url("CarDesign.jpg");
+	background-image: url("TravelPic.jpeg");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
@@ -414,7 +414,7 @@
 
 #shorter {
 	height: 480px;
-	background-image: url("Innovation.jpeg");
+	background-image: url("Environment.jpeg");
 }
 
 /*.pictureHolder::after {
@@ -844,7 +844,7 @@
 	width: 100%;
 	height: 580px;
 	z-index: -1;
-	background: url("CarSketch4.jpeg");
+	background: url("Fashion.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
