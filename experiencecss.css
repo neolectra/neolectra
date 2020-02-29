@@ -394,7 +394,7 @@
 	width: 100%;
 	height: 540px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("fulgora-x.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -418,7 +418,7 @@
 
 .imageHolder {
 	width: 50%;
-	background-image: url("RedCar.jpeg");
+	background-image: url("MuseumBackground.jpg");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
@@ -859,7 +859,7 @@
 	width: 100%;
 	height: 480px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("GirlBackground.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -867,6 +867,7 @@
 
 #BronteImage {
 	height: 480px;
+	background-image: url("SocialBackground.jpeg");
 }
 
 .interiorBackground {
