@@ -732,3 +732,35 @@
 .learnMoreButton:hover button {
   border-color: #626262;
  }
+<<<<<<< HEAD
+ 
+
+#brandSquare {
+	background-image: url("BrandBackground.jpeg");
+}
+
+#ownershipSquare {
+	background-image: url("OwnershipBackground.jpeg");
+}
+
+#lifestyleSquare {
+	background-image: url("LifestyleBackground.jpeg");
+}
+
+#contactSquare {
+	background-image: url("ContactBackground.jpg");
+}
+
+#historySquare {
+	background-image: url("HistoryBackgroundSquare.jpeg");
+}
+
+#square2 {
+	background-image: url("ExperienceBackground.jpg");
+}
+
+
+
+ 
+=======
+>>>>>>> c6c27440ebe1cecaa614d6abe14e34526ca99950

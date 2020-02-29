@@ -14,6 +14,19 @@
   object-fit: cover;
  }
  
+ .landingContainer {
+	width: 100%;
+	height: 100vh;
+}
+
+ .landing  {
+	background-image: url("OwnershipBackground.jpeg");
+		background-attachment: fixed;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+ }
+ 
 .MySlides {
   display: none;
  }
@@ -212,6 +225,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
 .firstSection {
@@ -281,14 +295,14 @@
 	width: 100%;
 	height: 480px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("Privacy2.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 #pictureHolder2:before {
-	background: url("RaceTrack.jpeg");
+	background: url("WarrantyMid.jpeg");
 	background-position: center bottom;
 }
 
@@ -304,7 +318,7 @@
 
 .imageHolder {
 	width: 49%;
-	background-image: url("TestInside.jpg");
+	background-image: url("Privacy.jpeg");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
@@ -351,10 +365,11 @@
 	align-self: flex-start;
 }
 
-#BronteImage {
+#BronteImage, #ManualImage {
 	display: flex;
 	justify-content: flex-end !important;
 	width: 50%;
+	background-image: url("WarrantyPic.jpeg");
 }
 
 
@@ -455,3 +470,51 @@
 	font-weight: 100;
 }
 
+#brandSquare {
+	background-image: url("BrandBackground.jpeg");
+}
+
+#ownershipSquare {
+	background-image: url("OwnershipBackground.jpeg");
+}
+
+#lifestyleSquare {
+	background-image: url("LifestyleBackground.jpeg");
+}
+
+#contactSquare {
+	background-image: url("ContactBackground.jpg");
+}
+
+#historySquare {
+	background-image: url("HistoryBackgroundSquare.jpeg");
+}
+
+#square2 {
+	background-image: url("ExperienceBackground.jpg");
+}
+
+#access {
+	background-image: url("AccessoryPic.jpeg");
+}
+
+#accessPic:before {
+	background-image: url("CarSeat.jpeg");
+}
+
+#ManualImage {
+	background-image: url("Manual.jpeg") !important;
+}
+
+#ManualHolder:before {
+	background-image: url("ManualMid.jpeg");
+}
+
+#service {
+	background-image: url("Service.jpeg");
+	background-position: bottom center;
+}
+
+#carService:before {
+	background-image: url("CarService.jpeg");
+}

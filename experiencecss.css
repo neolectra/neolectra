@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("ExperienceBackground.jpeg");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -1027,4 +1027,28 @@
 
 .leftTextHolder span {
 	font-weight: 100 !important;
+}
+
+#brandSquare {
+	background-image: url("BrandBackground.jpeg");
+}
+
+#ownershipSquare {
+	background-image: url("OwnershipBackground.jpeg");
+}
+
+#lifestyleSquare {
+	background-image: url("LifestyleBackground.jpeg");
+}
+
+#contactSquare {
+	background-image: url("ContactBackground.jpg");
+}
+
+#historySquare {
+	background-image: url("HistoryBackgroundSquare.jpeg");
+}
+
+#square2 {
+	background-image: url("ExperienceBackground.jpg");
 }

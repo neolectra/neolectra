@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("DesignBackground.jpeg");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -244,7 +244,7 @@
 
 .transparentBackground {
 	height: 100vh;
-	background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
 	width: 100%;
 	z-index: 1 !important;
 	position: absolute;
@@ -377,14 +377,14 @@
 	width: 100%;
 	height: 540px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("CarDesign2.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 #pictureHolder2:before {
-	background: url("RaceTrack.jpeg");
+	background: url("CarSketch4.jpeg");
 	background-position: center bottom;
 }
 
@@ -401,7 +401,7 @@
 
 .imageHolder {
 	width: 50%;
-	background-image: url("RedCar.jpeg");
+	background-image: url("CarDesign.jpg");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
@@ -414,6 +414,7 @@
 
 #shorter {
 	height: 480px;
+	background-image: url("Innovation.jpeg");
 }
 
 /*.pictureHolder::after {
@@ -478,6 +479,7 @@
 	display: flex;
 	justify-content: flex-end !important;
 	width: 50%;
+	background-image: url("DesignPic.jpg");
 }
 
 
@@ -842,7 +844,7 @@
 	width: 100%;
 	height: 580px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("CarSketch4.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -893,9 +895,9 @@
 	height: 300px;
 }
 
-.SlideShowContainer2 {
+/*.SlideShowContainer2 {
 	border-bottom: 3px solid white;
-}
+}*/
 
 .learnMoreContainer {
 	padding-top: 3%;
@@ -998,4 +1000,34 @@
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
+#pic1 {
+	background-image: url("CarSketch1.jpg");
+}
 
+#pic2 {
+	background-image: url("CarSketch2.jpg");
+}
+
+#pic3 {
+	background-image: url("CarModel1.jpg");
+}
+
+#pic4 {
+	background-image: url("CarModel2.jpg");
+}
+
+#pic5 {
+	background-image: url("CarSketch3.jpg");
+}
+
+#pic6 {
+	background-image: url("CarSketch7.jpg");
+}
+
+#pic7 {
+	background-image: url("CarSketch5.jpg");
+}
+
+#pic8 {
+	background-image: url("CarSketch6.jpg");
+}

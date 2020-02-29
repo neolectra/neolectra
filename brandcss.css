@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("BrandBackground.jpeg");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -165,7 +165,7 @@
 }
 
 .textHolder p {
-	font-size: 20px !important;
+	font-size: 17px !important;
 	font-weight: 400 !important;
 	text-transform: none;
 	margin-top: 15px;
@@ -1025,4 +1025,27 @@
 	margin-bottom: 0 !important;
 }
 
+#brandSquare {
+	background-image: url("BrandBackground.jpeg");
+}
+
+#ownershipSquare {
+	background-image: url("OwnershipBackground.jpeg");
+}
+
+#lifestyleSquare {
+	background-image: url("LifestyleBackground.jpeg");
+}
+
+#contactSquare {
+	background-image: url("ContactBackground.jpg");
+}
+
+#historySquare {
+	background-image: url("HistoryBackgroundSquare.jpeg");
+}
+
+#square2 {
+	background-image: url("ExperienceBackground.jpg");
+}
 

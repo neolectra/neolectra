@@ -122,7 +122,7 @@
 .dot {
   cursor: pointer;
   height: 3vh;
-  width: 16.66%;
+  width: 20%;
   background-color: transparent;
   border-top: 4px solid white;
   display: inline-block;
@@ -884,10 +884,6 @@
 	height: 300px;
 }
 
-.SlideShowContainer2 {
-	border-bottom: 3px solid white;
-}
-
 .learnMoreContainer {
 	padding-top: 3%;
 	display: flex;
@@ -987,6 +983,10 @@
 	padding-bottom: 8%;
 	padding-top: 5%;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+#hidePicture {
+	visibility: hidden !important;
 }
 
 
