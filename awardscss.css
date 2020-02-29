@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("AwardsBackground.jpeg");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -377,7 +377,7 @@
 	width: 100%;
 	height: 540px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("AwardStock.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -401,7 +401,7 @@
 
 .imageHolder {
 	width: 50%;
-	background-image: url("RedCar.jpeg");
+	background-image: url("SafetyAward.png");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
@@ -842,7 +842,7 @@
 	width: 100%;
 	height: 580px;
 	z-index: -1;
-	background: url("SandBackground.jpeg");
+	background: url("AwardStock.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -850,6 +850,7 @@
 
 #BronteImage {
 	height: 480px;
+	background-image: url("CelebrationAward.jpeg");
 }
 
 .interiorBackground {
@@ -998,4 +999,7 @@
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
+.awardImageHolder {
+	margin-right: 5%;
+}
 

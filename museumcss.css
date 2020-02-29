@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("DesignBackground.jpeg");
+	background-image: url("MuseumBackground.jpg");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -377,7 +377,7 @@
 	width: 100%;
 	height: 540px;
 	z-index: -1;
-	background: url("CarDesign2.jpeg");
+	background: url("MuseumOld2.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -401,7 +401,7 @@
 
 .imageHolder {
 	width: 50%;
-	background-image: url("CarDesign.jpg");
+	background-image: url("MuseumOld.jpeg");
 	opacity: 0;
 	transition: transform 4s 0.25s cubic-bezier(0,1,.3,1),
               opacity .3s 0.25s ease-out;
@@ -821,6 +821,10 @@
 	padding-top: 5%;
  }
  
+ .leftTextHolder span {
+	font-weight: 350 !important;
+ }
+ 
  #fulgoraSection2 {
 	padding-top: 0 !important;
  }
@@ -1001,33 +1005,42 @@
 }
 
 #pic1 {
-	background-image: url("CarSketch1.jpg");
+	background-image: url("Museum1.jpeg");
 }
 
 #pic2 {
-	background-image: url("CarSketch2.jpg");
+	background-image: url("Museum2.jpeg");
 }
 
 #pic3 {
-	background-image: url("CarModel1.jpg");
+	background-image: url("Museum3.jpg");
 }
 
 #pic4 {
-	background-image: url("CarModel2.jpg");
+	background-image: url("Museum4.jpeg");
 }
 
 #pic5 {
-	background-image: url("CarSketch3.jpg");
+	background-image: url("Museum5.jpeg");
 }
 
 #pic6 {
-	background-image: url("CarSketch7.jpg");
+	background-image: url("Museum6.jpeg");
 }
 
 #pic7 {
-	background-image: url("CarSketch5.jpg");
+	background-image: url("Museum7.jpeg");
 }
 
 #pic8 {
-	background-image: url("CarSketch6.jpg");
+	background-image: url("Museum8.jpg");
+}
+
+.lessSpace  p {
+	margin-bottom: 0 !important;
+	line-height: 10px !important;
+}
+
+.lessSpace {
+	margin-top: 15px;
 }

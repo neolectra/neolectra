@@ -728,6 +728,30 @@
  }
  
 
+#brandSquare {
+	background-image: url("BrandBackground.jpeg");
+}
+
+#ownershipSquare {
+	background-image: url("OwnershipBackground.jpeg");
+}
+
+#lifestyleSquare {
+	background-image: url("LifestyleBackground.jpeg");
+}
+
+#contactSquare {
+	background-image: url("ContactBackground.jpg");
+}
+
+#historySquare {
+	background-image: url("HistoryBackgroundSquare.jpeg");
+}
+
+#square2 {
+	background-image: url("ExperienceBackground.jpg");
+}
+
 
 
  

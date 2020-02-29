@@ -19,7 +19,7 @@
  }
  
  .landing  {
-	background-image: url("RedCar.jpeg");
+	background-image: url("AccessoriesBackground.jpeg");
 		background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -997,4 +997,101 @@
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
+.aboutUsSection {
+	margin: 0 15% 0 15%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
 
+.aboutUsArticle, .quickStatsArticle {
+	font-family: "Roboto", sans-serif;
+	line-height: 30px;
+	padding-top: 5%;
+}
+
+.aboutUsArticle p, .quickStatsArticle p {
+	margin-bottom: 15px;
+}
+
+.modelSection {
+	width: 31%;
+	margin-bottom: 3%;
+}
+
+.modelSection img {
+	width: 100%;
+}
+
+.aboutUsArticle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.modelSection a {
+	color: black;
+}
+
+.modelSection p {
+	color: rgb(68,68,68);
+}
+
+
+.modelSection a {
+	color: black;
+}
+
+.modelSection p {
+	color: rgb(68,68,68);
+}
+
+.linkHolder {
+	width: 100%;
+}
+
+.linkHolder a {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.1px;
+	font-size: 15px;
+	font-family: Roboto, sans-serif;
+}
+
+
+.linkHolder a::after  {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #dbb52f;
+    transition: width .3s;
+}
+
+.linkHolder a:hover::after  {
+    width: 40%;
+    //transition: width .3s;
+}
+
+.modelSection img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutUsTitle {
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px !important;
+	position: relative;
+}
+
+.aboutUsTitle h2:after {
+	position: absolute;
+	content: '';
+	height: 5px;
+	bottom: -8px;
+	margin: 0 auto;
+	left: 0;
+    right: 0;
+	width: 15%;
+	background: #dbb52f;
+}
