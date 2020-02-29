@@ -1,0 +1,20 @@
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+/* BEGIN STYLES FOR MOBILE DEVICES */
+@media only screen and (max-width: 750px) {
+  .headerList {
+    display: none;
+  }
+
+  .Hamburger, .hamburgerHolder {
+    display: block;
+  }
+
+  .Hamburger {
+    margin-right: 100px;
+    color: white;
+  }
+}

@@ -13,7 +13,7 @@
   cursor: pointer;
   object-fit: cover;
  }
- 
+
 .MySlides, .MySlides2 {
   display: none;
  }
@@ -147,26 +147,26 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade{
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @-webkit-keyframes fade2 {
- from {opacity: .4} 
+ from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade2 {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
- 
+
 
 
 .textHolderInner {
@@ -323,6 +323,12 @@
 	padding-right: 2%;
 }
 
+.leftText h3 {
+  font-family: Segoe UI;
+  font-size: 1.75em;
+  font-style: italic;
+}
+
 #BronteLeft {
 	padding-right: 8%;
 	text-align: right;
@@ -473,7 +479,7 @@
 
 #square2 {
 	background-image: url("OrangeCar.jpeg");
-}	
+}
 
 .wordSquareHolder {
 	position: relative;
@@ -554,7 +560,7 @@
 	height: 25%;
 	width: 50%;
 	background-size: cover;
-	padding: 0 !important; 	
+	padding: 0 !important;
 	margin: 0 !important;
 	cursor: pointer;
 }
@@ -625,7 +631,7 @@
  #Hide:hover, #Hide2:hover, #Hide3:hover, #Hide4:hover,  #Hide5:hover, #Hide6:hover {
   color: #dbb52f;
  }
- 
+
  .minusHolder p {
 	font-size: 40px;
 }
@@ -664,7 +670,7 @@
    display: none;
    margin-top: 15px;
  }
- 
+
  .modelChoice {
 	padding: 8% 20% 8% 20%;
 	background-color: #f0f0f0;
@@ -678,7 +684,7 @@
 	width: 100%;
 	padding-top: 15px;
 }
- 
+
  .writtenSection h2 {
 	font-weight: 300;
 	padding-bottom: 15px;
@@ -714,7 +720,7 @@
   border: 2px solid #c49e00;
   z-index: 2;
   padding: 15px 15px;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -726,6 +732,7 @@
 .learnMoreButton:hover button {
   border-color: #626262;
  }
+<<<<<<< HEAD
  
 
 #brandSquare {
@@ -755,3 +762,5 @@
 
 
  
+=======
+>>>>>>> c6c27440ebe1cecaa614d6abe14e34526ca99950
