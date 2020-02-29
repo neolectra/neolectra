@@ -2,7 +2,7 @@
 <html lang = "eng">
 <head>
 	<title> Neolectra Inc. Homepage </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="indexcss.css">
 	<link rel="stylesheet" href="HeaderFooter.css">
@@ -103,7 +103,7 @@
 					<a href = "news.html"> News </a>
 					<a href = "events.html"> Events </a>
 					<a href = "museum.html"> Museum </a>
-					<a href = "girl-powered.html"> Girl-Powered </a>
+					<a href = "gallery.html"> Gallery </a>
 					<a href = "social.html"> Social </a>
 				</div>
 			</div>
@@ -123,55 +123,31 @@
 			<div class = "dropDownMedia">
 				<button class = "dropButtonMedia" onclick="window.location.href = 'contact.html'"><a href = "contact.html">Contact</a></button>
 			</div>
+			<div class = "dropDownMedia">
+				<button class = "dropButtonMedia" onclick="window.location.href = 'store.html'"> <a href = "store.html">Store </a></button>
+			</div>
 		</ul>
 	</nav>
 <span id = "Hamburger" class="Hamburger" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
- <div id="myNav" class="overlay">
-   <span id  = "Hamburger" class="Hamburger" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
-  <a href="javascript:void(0)" id = "CloseButton" class="CloseButton" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-  <div class = "overlayHolder">
-    <a class = "active" href="index.html">Home</a>
-    <a href="about-us.html">About Us</a>
-		<div class="phoneDropdown">
-		    <a href="history.html">History</a>
-			<a href="teams.html">Teams</a>
-			<a href="join.html">Join Us</a>
-			<a href="outreach.html">Outreach</a>
-			<a href="advisors.html">Advisors</a>
-			<a href="awards.html">Awards</a>
-			<a href="challenges.html">Challenges</a>
-		</div>
-	<a href="overview.html">VEX Overview</a>
-		<div class="phoneDropdown">
-		    <a href="competition.html">Competitions</a>
-			<a href="events.html">Events</a>
-			<a href="programs.html">Programs</a>
-		</div>
-	<a href="media.html">Media</a>
-		  <div class="phoneDropdown">
-		    <a href="news.html">Publicity</a>
-			<a href="gallery.html">Gallery</a>
-			<a href="website.html">Website</a>
-			<a href="social.html">Social</a>
-		  </div>
-	<a href="blog.html">Blog</a>
-	<a href="resources.html">Resources</a>
-		<div class="phoneDropdown">
-		    <a href="building-tips.html">Building Tips</a>
-			<a href="notebook-tips.html">Notebook Tips</a>
-			<a href="coding-tips.html">Coding Tips</a>
-			<a href="game-tips.html">Game Tips</a>
-			<a href="website-tips.html">Website Tips</a>
-			<a href="other-links.html">Other Links</a>
-		  </div>
-		<a href="sponsors.html">Sponsors</a>
-		<a href="contact-us.html">Contact Us</a>
+<span class="Hamburger" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<div id="myNav" class="overlay">
+	<span class="Hamburger" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+ <a href="javascript:void(0)" class="CloseButton" onclick="closeNav()">&times;</a>
+ <div class="overlay-content">
+	 <a class="active" href="index.html">Home</a>
+	 <a href="TourDB.html">Tour</a>
+ <a href="NewsDB.html">News</a>
+	 <a href="#">Music</a>
+	<div class="MusicDropDown">
+		 <a href="MusicAlbum1.html">JR II's Greatest Hits</a>
+	 <a href="MusicAlbum2.html">Hometown</a>
+	 <a href="MusicAlbum3.html">Purpose</a>
 	</div>
-	</div>
-  </div>
-  </div>
+	 <a href="FansDB.html">Fans</a>
+ <a href="AboutPageDB.html">About</a>
+ <a href="StoreDB.html">Store</a>
+ </div>
 
 </header>
 <script>
@@ -190,15 +166,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("MySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" Active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " Active";
 }
 
@@ -217,6 +193,13 @@ function carousel() {
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 </script>
 
 <body>
@@ -226,13 +209,13 @@ function carousel() {
 	</a>
 </div>
 <div class="SlideShowContainer">
-<div class="DotContainer">	
+<div class="DotContainer">
 	<div class="Dots">
-  <span class="dot" onclick="currentSlide(1)" ></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(1)" ></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>   
-	</div> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+	</div>
 </div>
     <div class="MySlides fade">
 	<a href = "index.html" class = "transparentBackground">
@@ -241,10 +224,10 @@ function carousel() {
 			<source src = "LandingVideoFINAL.mp4" type = "video/mp4">
 		</video>
 	  <div class = "textHolder">
-			<h4>Lorem Ipsum</h4>
-			<p>#BLAH BLAH BLAH</p>
+			<h4>FULGORA XE</h4>
+			<br>
 		<div class = "textHolderInner">
-			<a class = "carMore" href = "#"> Learn More &rarr; </a>
+			<a class = "carMore" href = "fulgora-xe.html"> Learn More &rarr; </a>
 		</div>
 	  </div>
 	</div>
@@ -253,10 +236,10 @@ function carousel() {
 	</a>
 	  <img src="RacingCar.jpeg"/>
 	  <div class = "textHolder">
-			<h4>Lorem Ipsum</h4>
-			<p>#BLAH BLAH BLAH</p>
+			<h4>BRONTE XFE NITRO</h4>
+			<br>
 		<div class = "textHolderInner">
-			<a class = "carMore" href = "#"> Learn More &rarr; </a>
+			<a class = "carMore" href = "bronte-xfe-nitro.html"> Learn More &rarr; </a>
 		</div>
 	  </div>
 	</div>
@@ -265,10 +248,10 @@ function carousel() {
 	</a>
 		<img src="OrangeCar.jpeg"/>
 		<div class = "textHolder">
-			<h4>Lorem Ipsum</h4>
-			<p>#BLAH BLAH BLAH</p>
+			<h4>ASTRAPE</h4>
+			<br>
 		<div class = "textHolderInner">
-			<a class = "carMore" href = "#"> Learn More &rarr; </a>
+			<a class = "carMore" href = "astrape.html"> Learn More &rarr; </a>
 		</div>
 	  </div>
 	</div>
@@ -277,10 +260,10 @@ function carousel() {
 	</a>
 	  <img src="RedCar.jpeg"/>
 	  <div class = "textHolder">
-			<h4>Lorem Ipsum</h4>
-			<p>#BLAH BLAH BLAH</p>
+			<h4>PELE</h4>
+			<br>
 		<div class = "textHolderInner">
-			<a class = "carMore" href = "#"> Learn More &rarr; </a>
+			<a class = "carMore" href = "pele.html"> Learn More &rarr; </a>
 		</div>
 	  </div>
 	</div>
@@ -292,36 +275,33 @@ function carousel() {
 <div class = "aboutUsSection">
 	<div class = "aboutUsTitle">
 		<h2> Models </h2>
-	</div> 
+	</div>
 	<div class = "aboutUsArticle">
 		<div class = "modelSection">
 			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah Blah blah blah blah Blah blah blah blah</p>
+			<h4>FULGORA XE</h4>
 			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;	</a>
+				<a href = "fulgora-xe.html">EXPLORE MORE &rarr;	</a>
 			</div>
 			<div class = "linkHolder">
-				<a href = "#">BUY NOW &rarr;	</a>
-			</div>
-		</div>
-		<div class = "modelSection">
-			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah blah </p>
-			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;	</a>
-			</div>
-			<div class = "linkHolder">
-				<a href = "#">BUY NOW &rarr;	</a>
+				<a href = "https://autotrader.com">BUY NOW &rarr;	</a>
 			</div>
 		</div>
 		<div class = "modelSection">
 			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah blah </p>
+			<h4>FULGORA XE NEOQUAD </h4>
 			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;</a>
+				<a href = "fulgora-xe-neoquad.html">EXPLORE MORE &rarr;	</a>
+			</div>
+			<div class = "linkHolder">
+				<a href = "https://autotrader.com">BUY NOW &rarr;	</a>
+			</div>
+		</div>
+		<div class = "modelSection">
+			<img src = "RedCar.jpeg"/>
+			<h4>FULGORA XE TERGO</h4>
+			<div class = "linkHolder">
+				<a href = "fulgora-xe-tergo.html">EXPLORE MORE &rarr;</a>
 			</div>
 			<div class = "linkHolder">
 				<a href = "#">BUY NOW &rarr;</a>
@@ -329,68 +309,62 @@ function carousel() {
 		</div>
 		<div class = "modelSection">
 			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah blah </p>
+			<h4>BRONTE XFE NITRO</h4>
 			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;</a>
+				<a href = "bronte-xfe-nitro.html">EXPLORE MORE &rarr;</a>
 			</div>
 			<div class = "linkHolder">
-				<a href = "#">BUY NOW &rarr;</a>
-			</div>
-		</div>
-		<div class = "modelSection">
-			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah blah </p>
-			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;</a>
-			</div>
-			<div class = "linkHolder">
-				<a href = "#">BUY NOW &rarr;</a>
+				<a href = "https://autotrader.com">BUY NOW &rarr;</a>
 			</div>
 		</div>
 		<div class = "modelSection">
 			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah blah </p>
+			<h4>BRONTE XF NEOQUAD</h4>
 			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;	</a>
+				<a href = "bronte-xf-neoquad.html">EXPLORE MORE &rarr;</a>
 			</div>
 			<div class = "linkHolder">
-				<a href = "#">BUY NOW &rarr;	</a>
-			</div>
-		</div>
-		<div class = "modelSection">
-			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah blah </p>
-			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;	</a>
-			</div>
-			<div class = "linkHolder">
-				<a href = "#">BUY NOW &rarr;	</a>
+				<a href = "https://autotrader.com">BUY NOW &rarr;</a>
 			</div>
 		</div>
 		<div class = "modelSection">
 			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah blah </p>
+			<h4>BRONTE XF DOMUS </h4>
 			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;	</a>
+				<a href = "bronte-xf-domus.html">EXPLORE MORE &rarr;	</a>
 			</div>
 			<div class = "linkHolder">
-				<a href = "#">BUY NOW &rarr;	</a>
+				<a href = "https://autotrader.com">BUY NOW &rarr;	</a>
 			</div>
 		</div>
 		<div class = "modelSection">
 			<img src = "RedCar.jpeg"/>
-			<h4>MODEL NAME </h4>
-			<p>Blah blah blah blah blah </p>
+			<h4>ASTRAPE</h4>
 			<div class = "linkHolder">
-				<a href = "#">EXPLORE MORE &rarr;	</a>
+				<a href = "astrape.html">EXPLORE MORE &rarr;	</a>
 			</div>
 			<div class = "linkHolder">
-				<a href = "#">BUY NOW &rarr;	</a>
+				<a href = "https://autotrader.com">BUY NOW &rarr;	</a>
+			</div>
+		</div>
+		<div class = "modelSection">
+			<img src = "RedCar.jpeg"/>
+			<h4>PELE</h4>
+			<div class = "linkHolder">
+				<a href = "pele.html">EXPLORE MORE &rarr;	</a>
+			</div>
+			<div class = "linkHolder">
+				<a href = "https://autotrader.com">BUY NOW &rarr;	</a>
+			</div>
+		</div>
+		<div class = "modelSection">
+			<img src = "RedCar.jpeg"/>
+			<h4>OYA</h4>
+			<div class = "linkHolder">
+				<a href = "oya.html">EXPLORE MORE &rarr;	</a>
+			</div>
+			<div class = "linkHolder">
+				<a href = "https://autotrader.com">BUY NOW &rarr;	</a>
 			</div>
 		</div>
 	</div>
@@ -410,35 +384,35 @@ function carousel() {
 				</div>
 				<div class = "location">
 					<h3> Location </h3>
-					<h2> Redmond, Washington </h2>
+					<h2> Los Angeles, California</h2>
 				</div>
 				<div class = "slogan">
-					<h3> Club Slogan </h3>
-					<h2> "It Was On Fire When We Got Here" </h2>
+					<h3>Company Motto</h3>
+					<h2>"The Future Is Now"</h2>
 				</div>
 			</div>
 			<div class = "circleContainer">
 				<div class = "Circle">
-					<h2>13</h2>
+					<h2>14</h2>
 					<h3>Years</h3>
 				</div>
 				<div class = "Circle">
-					<h2>8</h2>
-					<h3>Teams</h3>
+					<h2>9</h2>
+					<h3>Cars</h3>
 				</div>
 				<div class = "Circle">
-					<h2>>150</h2>
-					<h3>Competitions</h3>
+					<h2>6</h2>
+					<h3>Locations</h3>
 				</div>
 				<div class = "Circle">
-					<h2>>220</h2>
-					<h3>Awards</h3>
+					<h2>1</h2>
+					<h3>Mission</h3>
 				</div>
 			</div>
 			<div class = "teamLogoContainer">
 				<div class = "teamLogo">
 					<h3> Mission Statement </h3>
-					<h2> A Cartoon-style Robot Drawn By Scott MacDonald, A Volunteer At LexisNexis </h2>
+					<h2>Neolectra Inc. aims to lead the nation in the transition to enviornmentally sustainable, economical automobiles for working class Americans.</h2>
 				</div>
 			</div>
 		</div>
@@ -452,54 +426,54 @@ function carousel() {
 	</div>
 	<div class = "overallNewSection">
 		<div class = "leftNewSection">
-			<a href = "#" class = "newsBox1">
+			<a href = "news-article-1.html" class = "newsBox1">
 				<div class = "newsBoxInner1">
 					<div class = "newsImageBackground">
 						<div class = "filterInside">
 						</div>
 					</div>
 				</div>
-				<h4>Blah blah </h4>
+				<h4>Neolectra Inc. Announces 2021 Fulgora Z Model</h4>
 			</a>
 			<div class = "box2Holder">
-				<a href = "#" id = "marginRight" class = "newsBox2">
+				<a href = "news-article-2.html" id = "marginRight" class = "newsBox2">
 				<div class = "newsBoxInner1">
 					<div class = "newsImageBackground">
 						<div class = "filterInside">
 						</div>
 					</div>
 				</div>
-				<h4>Blah blah </h4>
+				<h4>Neolectra Inc. Changes Logo</h4>
 				</a>
-				<a href = "#" class = "newsBox2">
+				<a href = "news-article-3.html" class = "newsBox2">
 				<div class = "newsBoxInner1">
 					<div class = "newsImageBackground">
 						<div class = "filterInside">
 						</div>
 					</div>
 				</div>
-				<h4>Blah blah </h4>
+				<h4>Neolectra's 2020 Astrape Wins JR II Safety Award</h4>
 				</a>
 			</div>
 		</div>
 		<div class = "rightNewSection">
-			<a href = "#" class = "newsBox3">
+			<a href = "news-article-4.html" class = "newsBox3">
 			<div class = "newsBoxInner2">
 					<div class = "newsImageBackground2">
 						<div class = "filterInside">
 						</div>
 					</div>
 				</div>
-				<h4>Blah blah </h4>
+				<h4>Urtzal's Take On Self-Driving Cars</h4>
 			</a>
 		</div>
 	</div>
 	<div class = "learnMoreContainer">
-	    <a href = "teams.html" class="learnMoreButton"><button>Discover More &rarr;</button></a>
+	    <a href = "news.html" class="learnMoreButton"><button>Discover More &rarr;</button></a>
 	</div>
 </div>
 </div>
-<div class = "fourthSection">	
+<div class = "fourthSection">
 	<div class = "boardMemberSection">
 		<div class = "boardTitle">
 			<h2>People </h2>
@@ -510,8 +484,8 @@ function carousel() {
 				<img src = "RedCar.jpeg"/>
 			</button>
 			<div class = "CircleText">
-				<h2> Vishwa KN </h2>
-				<h3> President </h3>
+				<h2> Sammy Urtzal </h2>
+				<h3> CEO </h3>
 			</div>
 		</div>
 		<div class = "circleHolder">
@@ -519,8 +493,8 @@ function carousel() {
 				<img src = "BlackCar.jpeg"/>
 			</button>
 			<div class = "CircleText">
-				<h2> Amol Vaidya </h2>
-				<h3> Vice President </h3>
+				<h2> Peyton Everlue </h2>
+				<h3> COO </h3>
 			</div>
 		</div>
 		<div class = "circleHolder">
@@ -528,8 +502,8 @@ function carousel() {
 				<img src = "OrangeCar.jpeg"/>
 			</button>
 			<div class = "CircleText">
-				<h2> Arav Singh </h2>
-				<h3> Build Advisor </h3>
+				<h2> Joselyn Sputak </h2>
+				<h3> CFO </h3>
 			</div>
 		</div>
 		<div class = "circleHolder">
@@ -537,8 +511,8 @@ function carousel() {
 				<img src = "RedCar.jpeg"/>
 			</button>
 			<div class = "CircleText">
-				<h2> Thorsten Lannynd</h2>
-				<h3> Programming Advisor</h3>
+				<h2>Laura Chen</h2>
+				<h3> Secretary</h3>
 			</div>
 		</div>
 		<div class = "circleHolder">
@@ -546,8 +520,8 @@ function carousel() {
 				<img src = "OrangeCar.jpeg"/>
 			</button>
 			<div class = "CircleText">
-				<h2> Alex Evans</h2>
-				<h3> Public Relations</h3>
+				<h2> Sanjana Karnataki</h2>
+				<h3> CMO</h3>
 			</div>
 		</div>
 		</div>
@@ -556,77 +530,6 @@ function carousel() {
 	</div>
 	</div>
 </div>
-<div id = "modal" class = "modal">
-	<div class = "modalContent">
-		<div class = "pictureHolder">
-		</div>
-		<div class = "textModal">
-			<div class = "textHolderFirst">
-				<h4>President</h4>
-				<h3>Vishwa KN</h3>
-				<p> Vishwa Kaniyur Neelakandan is a senior at Juanita High School and is part of Exothermic Evolution (10E). He is currently the president of Exothermic Robotics and has been doing VEX for 4 years now. His favorite part about VEX is getting a glimpse into the field of engineering. He also loves working with younger students to show them how informative, meaningful, and fun the program can be. </p>
-			</div>
-			<span class = "close">&times;</span>
-		</div>
-	</div>
-</div>
-<div id = "modal2" class = "modal2">
-	<div class = "modalContent2">
-	<div class = "pictureHolder2">
-		</div>
-		<div class = "textModal2">
-			<div class = "textHolder2">
-				<h4>Vice President</h4>
-				<h3>Amol Vaidya</h3>
-				<p> Amol Vaidya is a junior at Redmond High School and is part of Exothermic Blaze (10B). He is currently the Vice President of Exothermic Robotics. Amol started VEX as a freshman and this is his third year of doing VEX. His favorite thing about the program is imagining, designing, and executing different designs and ideas for a robot. He enjoys the feeling of excitement and accomplishment when the robot ends up working as well as being able to hang out and work with friends on stuff they are all passionate about.</p>
-			</div>
-		<span class = "close2">&times;</span>
-	</div>
-	</div>
-</div>
-<div id = "modal3" class = "modal3">
-	<div class = "modalContent3">
-	<div class = "pictureHolder3">
-	</div>
-		<div class = "textModal3">
-			<div class = "textHolder3">
-				<h4>Build Advisor</h4>
-				<h3>Arav Singh</h3>
-				<p> Arav Singh is a senior at Eastlake High School and is part of Exothermic Evolution (10E). He is currently the Build Advisor for Exothermic Robotics. Arav also started VEX as a freshman and this is his fourth year of doing VEX. His favorite thing about the program is how you can have people start with any background or level of experience and with the right environment, they can grow into great engineers and develop the skills they need for the future. </p>
-			</div>
-		<span class = "close3">&times;</span>
-	</div>
-	</div>
-</div>
-<div id = "modal4" class = "modal4">
-	<div class = "modalContent4">
-		<div class = "pictureHolder4">
-		</div>
-		<div class = "textModal4">
-			<div class = "textHolder4">
-				<h4>Programming Advisor</h4>
-				<h3>Thorsten Lannynd</h3>
-				<p> Thorsten Lannynd is a senior doing Running Start at Bellevue College (he used to attend Redmond High School) and is part of Exothermic Evolution (10E). He is currently the Programming Advisor for Exothermic Robotics. Thorsten started VEX as a sophomore and this is his third year of doing VEX. His favorite thing about the program is being able to create top-tier Autonomous routines and seeing them work at competitions. </p>
-			</div>
-		<span class = "close4">&times;</span>
-	</div>
-	</div>
-</div>
-<div id = "modal5" class = "modal5">
-	<div class = "modalContent5">
-		<div class = "pictureHolder5">
-		</div>
-		<div class = "textModal5">
-			<div class = "textHolder5">
-				<h4>Public Relations</h4>
-				<h3>Alex Evans</h3>
-				<p> Alex Evans is a senior at Juanita High School and is part of Exothermic Ion (10N). He is currently the Public Relations Officer for Exothermic Robotics. Alex started VEX as a junior and this is his second year of doing VEX. His favorite thing about the program is seeing his robot transform from a rough sketch into a fully functioning competitive robot. The VEX global community has also introduced him to many amazing and passionate people that he would not have met otherwise.</p>
-			</div>
-		<span class = "close5">&times;</span>
-	</div>
-	</div>
-</div>
-
 <script>
 	var modal = document.getElementById("modal");
 	var modal2 = document.getElementById("modal2");
@@ -635,15 +538,15 @@ function carousel() {
 	var modal5 = document.getElementById("modal5");
 	var modal6 = document.getElementById("modal6");
 	var modal7 = document.getElementById("modal7");
-	
+
 	var btn = document.getElementById("Circle2");
-	var btn2 = document.getElementById("Circle3");	
+	var btn2 = document.getElementById("Circle3");
 	var btn3 = document.getElementById("Circle4");
 	var btn4 = document.getElementById("Circle5");
 	var btn5 = document.getElementById("Circle6");
 	var btn6 = document.getElementById("Circle7");
 	var btn7 = document.getElementById("Circle8");
-	
+
 	var span = document.getElementsByClassName("close")[0];
 	var span2 = document.getElementsByClassName("close2")[0];
 	var span3 = document.getElementsByClassName("close3")[0];
@@ -651,11 +554,11 @@ function carousel() {
 	var span5 = document.getElementsByClassName("close5")[0];
 	var span6 = document.getElementsByClassName("close6")[0];
 	var span7 = document.getElementsByClassName("close7")[0];
-	
+
 	btn.onclick = function() {
 		modal.style.display = "flex";
 	}
-	
+
 	span.onclick = function() {
 		modal.style.display = "none";
 	}
@@ -663,11 +566,11 @@ function carousel() {
 	btn2.onclick = function() {
 		modal2.style.display = "flex";
 	}
-	
+
 	span2.onclick = function() {
 		modal2.style.display = "none";
 	}
-	
+
 	btn3.onclick = function() {
 		modal3.style.display = "flex";
 	}
@@ -675,19 +578,19 @@ function carousel() {
 	span3.onclick = function() {
 		modal3.style.display = "none";
 	}
-	
+
 	btn4.onclick = function() {
 		modal4.style.display = "flex";
 	}
-	
+
 	span4.onclick = function() {
 		modal4.style.display = "none";
 	}
-	
+
 	btn5.onclick = function() {
 		modal5.style.display = "flex";
 	}
-	
+
 	span5.onclick = function() {
 		modal5.style.display = "none";
 	}
@@ -695,19 +598,19 @@ function carousel() {
 	btn6.onclick = function() {
 		modal6.style.display = "flex";
 	}
-	
+
 	span6.onclick = function() {
 		modal6.style.display = "none";
 	}
-	
+
 	btn7.onclick = function() {
 		modal7.style.display = "flex";
 	}
-	
+
 	span7.onclick = function() {
 		modal7.style.display = "none";
 	}
-	
+
 	window.onclick = function(event) {
 		if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4|| event.target == modal5|| event.target == modal6|| event.target == modal7) {
 			modal.style.display = "none";
@@ -719,7 +622,7 @@ function carousel() {
 			modal7.style.display = "none";
 		}
 	}
-	
+
 </script>
 <a href="#" class="Scrolltotop"><button onclick="topFunction()" id="mybtn" class="button" title="Go to top"></button></a>
 <script>
@@ -756,11 +659,11 @@ if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 			<div class = "innerTopRight">
 				<div class = "greyBox">
 					<div class = "greyBoxText">
-						<h4 class = "date">DATE</h4>
-						<h4>INSERT EVENT</h4>
-						<p>Blah blah blah blah blah blah Blah blah blah blah blah blah Blah blah blah blah blah blah Blah blah blah blah blah blah</p>
+						<h4 class = "date">Dec 10, 2020</h4>
+						<h4>2021 FULGORA Z RELEASE</h4>
+						<p>Join us on December 10, 2020 for the release of the newest model from our Fulgora line.</p>
 						<div id = "eventButton" class = "learnMoreContainer">
-							<a href = "teams.html" id = "blackColor" class="learnMoreButton"><button>Learn More &rarr;</button></a>
+							<a href = "events.html" id = "blackColor" class="learnMoreButton"><button>Learn More &rarr;</button></a>
 						</div>
 					</div>
 				</div>
@@ -769,62 +672,27 @@ if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 		<div class = "overallNewSectionEvent">
 		<div class = "leftNewSection">
 			<div class = "box2Holder">
-				<a href = "#" id = "marginRight" class = "newsBox2">
+				<a href = "events.html" id = "marginRight" class = "newsBox2">
 				<div class = "newsBoxInner1">
 					<div class = "newsImageBackground">
 						<div class = "filterInside">
 						</div>
 					</div>
 				</div>
-				<h4>Blah blah </h4>
+				<h4 class="date">Sept 12, 2020</h4>
+				<h4>Neolectra Int'l Code Day Workshop</h4>
 				</a>
-				<a href = "#" class = "newsBox2">
+				<a href = "events.html" class = "newsBox2">
 					<div class = "newsBoxInner1">
 					<div class = "newsImageBackground">
 						<div class = "filterInside">
 						</div>
 					</div>
 				</div>
-				<h4>Blah blah </h4>
+				<h4 class="date">Mar 8, 2020</h4>
+				<h4>Neolectra Int'l Women's Day Con</h4>
 				</a>
 			</div>
-			<div class = "box2Holder">
-				<a href = "#" id = "marginRight" class = "newsBox2">
-				<div class = "newsBoxInner1">
-					<div class = "newsImageBackground">
-						<div class = "filterInside">
-						</div>
-					</div>
-				</div>
-				<h4>Blah blah </h4>
-				</a>
-				<a href = "#" class = "newsBox2">
-					<div class = "newsBoxInner1">
-					<div class = "newsImageBackground">
-						<div class = "filterInside">
-						</div>
-					</div>
-				</div>
-				<h4>Blah blah </h4>
-				</a>
-			</div>
-		</div>
-		<div class = "rightNewSection">
-			<a href = "#" class = "newsBox3">
-			<div class = "newsBoxInner2">
-					<div class = "newsImageBackground2">
-						<div class = "filterInside">
-						</div>
-					</div>
-				</div>
-				<h4>Blah blah </h4>
-			</a>
-		</div>
-	</div>
-	</div>
-		<div class = "learnMoreContainer">
-			<a href = "teams.html" class="learnMoreButton"><button>More Events &rarr;</button></a>
-		</div>
 	</div>
 	</div>
 </div>
@@ -864,7 +732,7 @@ showSlides(slideIndex);
 				</div>
 			</div>
 			<div class = "footerSection">
-				<a class = "underlineFooter" href = "brand.html">Brand</a>
+				<a class = "underlineFooter" href = "#">Brand</a>
 				<hr>
 				<div class = "linkHolderFooter">
 					<a href = "people.html">People</a>
@@ -883,7 +751,7 @@ showSlides(slideIndex);
 				</div>
 			</div>
 			<div class = "footerSection">
-				<a class = "underlineFooter" href = "experience.html">Experience</a>
+				<a class = "underlineFooter" href = "#">Experience</a>
 				<hr>
 				<div class = "linkHolderFooter">
 					<a href = "news.html">News</a>
@@ -895,14 +763,14 @@ showSlides(slideIndex);
 					<a href = "museum.html">Museum</a>
 				</div>
 				<div class = "linkHolderFooter">
-					<a href = "girl-powered.html">Girl-Powered</a>
+					<a href = "gallery.html">Gallery</a>
 				</div>
 				<div class = "linkHolderFooter">
 					<a href = "social.html">Social</a>
 				</div>
 			</div>
 			<div class = "footerSection">
-				<a class = "underlineFooter"  href = "ownership.html">Ownership</a>
+				<a class = "underlineFooter"  href = "#">Ownership</a>
 				<hr>
 				<div class = "linkHolderFooter">
 					<a href = "privacy.html">Privacy/Legal</a>
@@ -914,7 +782,7 @@ showSlides(slideIndex);
 					<a href = "accessories.html">Accessories</a>
 				</div>
 				<div class = "linkHolderFooter">
-					<a href = "guides-manuals.html">Guides and Manuals</a>
+					<a href = "guides.html">Guides and Manuals</a>
 				</div>
 			</div>
 		</div>
@@ -922,12 +790,12 @@ showSlides(slideIndex);
 			<div class = "footerSocial">
 				<div class = "footerWords">
 					<h4>Follow Us</h4>
-					<a class = "social" href="https://facebook.com/weareneolectra" target="_blank" ><i class="fab fa-facebook-f"></i></a>
-					<a class = "social" href="https://instagram.com/weareneolectra" target="_blank" ><i class="fab fa-instagram"></i></a>
-					<a class = "social" href="https://twitter.com/@weareneolectra" target="_blank" ><i class="fab fa-twitter"></i></a>
-					<a class = "social" href="https://www.youtube.com/" target="_blank" ><i class="fab fa-youtube"></i></a>
-					<a class = "social" href="https://www.pinterest.com/" target="_blank" ><i class="fab fa-pinterest"></i></a>
-					<a class = "social" href="https://www.linkedin.com/" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+					<a class = "social" href="https://www.facebook.com/exothermicrobotics/" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+					<a class = "social" href="https://www.instagram.com/" target="_blank" ><i class="fab fa-instagram"></i></a>
+					<a class = "social" href="https://twitter.com/ExothermicRobo1" target="_blank" ><i class="fab fa-twitter"></i></a>
+					<a class = "social" href="https://youtube.com" target="_blank" ><i class="fab fa-youtube"></i></a>
+					<a class = "social" href="https://youtube.com" target="_blank" ><i class="fab fa-pinterest"></i></a>
+					<a class = "social" href="https://youtube.com" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
 				</div>
 				<div class = "copyright">
 					<p>&copy; 2019-2020 Juanita High School </p>
