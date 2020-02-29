@@ -1,0 +1,108 @@
+@media only screen and (max-width: 970px) {
+
+#emotionHolder:before {
+	width: 100%;
+}
+
+#emotionHolder {
+	width: 100%;
+	padding-right: 0 !important;
+}
+
+.pictureHolder:before {
+	width: 100%;
+}
+
+.pictureHolder {
+	width: 100%;
+}
+
+.landing {
+	background-attachment: scroll;
+}
+
+.firstSectionText {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+
+.pictureHolder2 {
+	display: none;
+}
+
+.imageHolder, #BronteImage, #PeleImage {
+	display: block !important;
+	width: 100%;
+	height: 100%;
+}
+
+.interiorBackground {
+	background-attachment: scroll !important;
+}
+
+#drivingSection {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.part {
+	width: 100%;
+}
+
+.dot {
+	width: 100%;
+}
+
+.Dots {
+	display: none;
+}
+
+.next {
+	padding-right: 0 !important;
+}
+
+.prev {
+	padding-left: 0 !important;
+}
+
+.SlideShowContainer {
+	width: 95% !important;
+}
+
+.textHolder h5 {
+	font-size: 50px;
+}
+
+.partImageHolder img {
+	height: 80%;
+	width: auto !important;
+}
+
+.titleButtonHolder h2 {
+	padding-bottom: 15%;
+	font-size: 40px;
+}
+
+.customizeImageHolder img {
+	width: 100%;
+}
+
+.customizeSection {
+	padding: 15% 5% 15% 5%;
+}
+
+.leftTextHolder {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#interiorSection {
+	padding-top: 15%;
+}
+
+.textHolderSlides {
+	top: 5vh !important;
+}
+
+}
